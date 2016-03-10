@@ -5,6 +5,7 @@ html {
 body {
     width: 100%;
     margin: 0;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 header {
     background: #39577D;
@@ -21,9 +22,32 @@ h1 {
 h2 {
     font-size: 1rem;
 }
+a {
+    color: #39577D;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #7098C9;
+}
 .clear {
     clear: both;
 }
+
+#container {
+    width: 95%;
+    margin: 0 auto;
+}
+h2.section-hed {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    color: #39577D;
+}
+
+/* HEADER STYLES */
 
 #logo {
     float: left;
@@ -42,4 +66,34 @@ h2 {
 
 #burger {
     clear: both;
+}
+
+/* LATEST NEWS HOMEPAGE */
+
+.news-story {
+    margin-bottom: 1.5rem;
+}
+.latest-news {
+    border-bottom: 1px solid #39577D;
+    margin-bottom: 1rem;
+}
+.latest-news time {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #C99534;
+}
+.latest-news h3 {
+    font-size: 1.75rem;
+    margin: 0.25rem 0 0.5rem;
+}
+.latest-news h3 a {
+    color: #000;
+}
+.latest-news img {
+    width: 100%;
+}
+.latest-news .read-more {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
