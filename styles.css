@@ -11,6 +11,7 @@ header {
     background: #39577D;
     color: #fff;
     text-align: center;
+    padding: 0.2rem;
 }
 h1, h2 {
     font-family: Vollkorn, Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
@@ -96,3 +97,36 @@ h2.section-hed {
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: bold;
+}
+
+/* TESTIMONIALS HOMEPAGE */
+
+.testimonial {
+    clear: both;
+    padding-bottom: 1rem;
+}
+.testimonial img {
+    width: 20%;
+    float: left;
+    padding: 0 0.5rem 0.5rem 0;
+}
+
+/* FOOTER */
+
+footer {
+    background: #39577D;
+    color: #fff;
+    padding: 0.2rem 1rem;
+    margin-top: 1rem;
+}
+#contact {
+    float: left;
+    margin-right: 1rem;
+}
+#social {
+    float: right;
+    margin: inherit 0;
+}
+#social img {
+    width: 2rem;
+}
