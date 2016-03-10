@@ -68,6 +68,7 @@ h2.section-hed {
     clear: both;
 }
 
+<<<<<<< HEAD
 /* LATEST NEWS HOMEPAGE */
 
 .news-story {
@@ -96,4 +97,50 @@ h2.section-hed {
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: bold;
+=======
+form {
+    margin-bottom: 1em;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+
+    input:not([type="image" i]), textarea {
+    box-sizing: border-box;
+}
+user agent stylesheet
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    flex-direction: column;
+    resize: auto;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid;
+    padding: 2px;
+}
+
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px BlinkMacSystemFont;
+}
+
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+>>>>>>> origin/gh-pages
 }
