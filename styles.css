@@ -9,6 +9,7 @@ body {
 header {
     background: #39577D;
     color: #fff;
+    text-align: center;
 }
 h1, h2 {
     font-family: Vollkorn, Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
