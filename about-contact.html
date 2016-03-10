@@ -49,18 +49,21 @@
             </ul>
         </nav>
 
-        <section class="news">
-            <p><img src="images/juan.jpg" alt="Photo of Juan"/></p>
-            <h3>SJI mourns the loss of alumn</h3>
-            <h4>By: Adena Andrews February 7, 2016</h4>
-            <p> Juan Rodriguez, a member of the Sports Journalism Institute’s Class of 1994, lost his battle with brain cancer on Jan. 18. His work, and his friendship, will remain in the hearts of his SJI brothers and sisters.</p>
-            <p><a href="a">Read More&rarr;</a></p>
-        </section>
-
-        <section class="testimonials">
-            <img src="images/Testimonial1.png" alt="Photo of Reviewer"/>
-            <p>&#34;SJI is the best. It helped me strengthen my journalism skills and become a better journalist.&#34;</p>
-        </section>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      	<div class="row">
+      		<label for="name">Your name:</label><br />
+      		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      	</div>
+      	<div class="row">
+      		<label for="email">Your email:</label><br />
+      		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+      	</div>
+      	<div class="row">
+      		<label for="message">Your message:</label><br />
+      		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+      	</div>
+      	<input id="submit_button" type="submit" value="Send email" />
+      </form>						
 
         <footer>
             <p>Contact Information goes here.</p>
