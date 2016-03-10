@@ -1,0 +1,44 @@
+html {
+    font-size: 14px;
+    background: #fff;
+}
+body {
+    width: 100%;
+    margin: 0;
+}
+header {
+    background: #39577D;
+    color: #fff;
+}
+h1, h2 {
+    font-family: Vollkorn, Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-weight: normal;
+}
+h1 {
+    font-size: 1.3rem;
+}
+h2 {
+    font-size: 1rem;
+}
+.clear {
+    clear: both;
+}
+
+#logo {
+    float: left;
+    margin-right: 5%;
+    width: 20%;
+}
+#header-text {
+    float: right;
+    width: 75%;
+}
+#nameplate {
+    margin: 0;
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+
+#burger {
+    clear: both;
+}
