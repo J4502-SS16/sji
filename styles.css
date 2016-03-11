@@ -11,7 +11,8 @@ header {
     background: #39577D;
     color: #fff;
     text-align: center;
-    padding: 0.2rem;
+    padding: 0;
+    margin-bottom: 1rem;
 }
 h1, h2 {
     font-family: 'Vollkorn', Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
@@ -67,6 +68,339 @@ h2.section-hed {
 
 #burger {
     clear: both;
+}
+
+/* MENU - Adapted from Emre: http://codepen.io/emredenx/pen/ojcxl */
+
+header {
+    position:relative;
+}
+.menu {
+    position:relative;
+    z-index:123;
+    padding:10px;
+    float:left;
+    width:15%;
+}
+.menu a {
+    color:#6DDB07;
+}
+#burger {
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    text-align: left;
+    text-transform: uppercase;
+}
+#burger * {
+    margin: 0;
+    padding: 0;
+}
+#burger, #burger ul, #burger ul li, #burger ul li a, #burger #head-mobile {
+    border:0;
+    list-style:none;
+    display:block;
+    position:relative;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+#burger ul {
+    padding: 0;
+}
+#burger:after, #burger > ul:after {
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    line-height:0;
+    height:0;
+}
+#burger #head-mobile {
+    display:none;
+}
+#burger {
+    background:#39577D;
+}
+#burger > ul > li {
+    float:left;
+}
+#burger > ul > li > a {
+    padding:17px;
+    font-size:1rem;
+    letter-spacing:1px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:700;
+}
+#burger > ul > li:hover > a,#burger ul li.active a {
+    color:#fff;
+}
+#burger > ul > li:hover, #burger ul li.active:hover, #burger ul li.active, #burger ul li.has-sub.active:hover {
+    background:#7098C9 !important;
+    -webkit-transition:background .3s ease;
+    -ms-transition:background .3s ease;
+    transition:background .3s ease;
+}
+
+#burger > ul > li.has-sub > a:after {
+    margin-left: 1rem;
+    color: #fff;
+    content: "\25BC";
+}
+#burger > ul > li.has-sub:hover > a:before {
+    top:23px;
+    height:0;
+}
+#burger ul ul {
+  position: absolute;
+  left: -9999px;
+  line-height:1.5rem;
+}
+
+#burger ul ul li {
+  height: 0;
+  -webkit-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  background: #333;
+  transition: all .25s ease;
+}
+
+#burger ul ul li:hover {
+}
+
+#burger li:hover > ul {
+  left: auto;
+}
+
+#burger li:hover > ul > li {
+  height: auto;
+}
+
+#burger ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+
+#burger ul ul li a {
+  border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+  padding: 11px 15px;
+  width: 16rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #ddd;
+  font-weight: 400;
+}
+
+#burger ul ul li:last-child > a,
+#burger ul ul li.last-item > a {
+  border-bottom: 0;
+}
+
+#burger ul ul li:hover > a,
+#burger ul ul li a:hover {
+  color: #fff;
+  background: #555;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#burger > ul > li.has-sub > ul > li.active > a,
+#burger > ul ul > li.has-sub > ul > li.active > a {
+  border-top: 1px solid #333;
+}
+
+@media screen and (max-width: 800px) {
+
+  nav {
+    width: 100%;
+  }
+
+  #burger {
+    width: 100%;
+  }
+
+  #burger ul {
+    width: 100%;
+    display: none;
+  }
+
+  #burger ul li {
+    width: 100%;
+    border-top: 1px solid #444;
+  }
+
+  #burger ul li:hover {
+    background: #555;
+  }
+
+  #burger ul ul li,
+  #burger li:hover > ul > li {
+    height: auto;
+  }
+
+  #burger ul li a,
+  #burger ul ul li a {
+    width: 100%;
+    border-bottom: 0;
+  }
+
+  #burger > ul > li {
+    float: none;
+  }
+
+  #burger ul ul li a {
+    padding-left: 25px;
+  }
+
+  #burger ul ul li {
+    background: #333 !important;
+  }
+
+  #burger ul ul li:hover {
+    background: #555 !important;
+  }
+
+  #burger ul ul li a {
+    color: #ddd;
+    background: none;
+  }
+
+  #burger ul ul li:hover > a,
+  #burger ul ul li.active > a {
+    color: #fff;
+  }
+
+  #burger ul ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+
+  #burger > ul > li.has-sub > a:after,
+  #burger > ul > li.has-sub > a:before,
+  #burger ul ul > li.has-sub > a:after,
+  #burger ul ul > li.has-sub > a:before {
+    display: none;
+  }
+
+  #burger #head-mobile {
+    display: block;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: right;
+    margin-right: 3rem;
+  }
+
+  .button {
+    width: 55px;
+    height: 46px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 12399994;
+  }
+
+  .button:after {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    display: block;
+    height: 4px;
+    width: 20px;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    content: '';
+  }
+
+  .button:before {
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: #ddd;
+    content: '';
+  }
+
+  .button.menu-opened:after {
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    top: 23px;
+    border: 0;
+    height: 2px;
+    width: 19px;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .button.menu-opened:before {
+    top: 23px;
+    background: #fff;
+    width: 19px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #burger .submenu-button {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    display: block;
+    height: calc(1rem + 37px);
+    width: calc(1rem + 37px);
+    cursor: pointer;
+    background: #333;
+  }
+
+  #burger .submenu-button:hover {
+    background: #555;
+    -webkit-transition:background .3s ease;
+    -ms-transition:background .3s ease;
+    transition:background .3s ease;
+  }
+
+  #burger ul ul .submenu-button {
+    height: 37px;
+    width: 37px;
+  }
+
+  #burger .submenu-button:after {
+    color: #fff;
+    content: "\25BC";
+    position: absolute;
+    left: 19px;
+    top: 18px;
+  }
+
+  #burger ul ul .submenu-button:before {
+    top: 12px;
+    right: 16px;
+  }
+
+  #burger > ul > li.has-sub > ul > li.active > a,
+  #burger > ul ul > li.has-sub > ul > li.active > a {
+    border-top: none;
+  }
 }
 
 /* LATEST NEWS HOMEPAGE */
