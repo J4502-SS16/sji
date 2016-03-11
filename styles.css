@@ -301,7 +301,7 @@ header {
     width: 55px;
     height: 46px;
     position: absolute;
-    right: 0;
+    right: calc(50% - 27px);
     top: 0;
     cursor: pointer;
     z-index: 12399994;
