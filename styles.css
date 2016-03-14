@@ -465,7 +465,10 @@ header {
 
 /* ABOUT PAGE*/
 
-
+.videowrapper iframe {
+  padding: 10px;
+	width: 90%;
+}
 
 
 
