@@ -435,6 +435,7 @@ header {
 }
 .latest-news img {
     width: 100%;
+    padding-top: .5rem;
 }
 .latest-news .read-more {
     text-transform: uppercase;
