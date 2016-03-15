@@ -540,6 +540,7 @@ footer {
 #social {
     float: right;
     margin: 0;
+    padding-top: .60rem;
 }
 #social img {
     width: 2rem;
