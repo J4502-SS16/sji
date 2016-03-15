@@ -469,7 +469,30 @@ header {
 
 
 
+/* LATEST NEWS */
+.archive {
+  text-align: center;
+}
 
+.archive a {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  font-size: 1.1rem;
+}
+
+/* SUMMER PROGRAMS & ABOUT PAGE*/
+
+.About .section-hed {
+  padding-top: 1rem;
+}
+
+.About {
+  padding-bottom: 1rem;
+}
+
+.About iframe {
+  padding-top: .5rem;
+}
 
 
 /* APPLY PAGE */
