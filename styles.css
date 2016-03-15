@@ -494,11 +494,16 @@ header {
   padding-top: .5rem;
 }
 
+/* BOARD OF DIRECTORS*/
+.directors .section-hed {
+  font-size: 1.75rem;
+
+}
 
 /* APPLY PAGE */
 
 .apply .section-hed {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 
 }
 
