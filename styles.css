@@ -21,10 +21,10 @@ h1, h2 {
     font-weight: normal;
 }
 h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 h2 {
-    font-size: 1rem;
+    font-size: .73rem;
 }
 a {
     color: #39577D;
@@ -60,13 +60,15 @@ h2.section-hed {
 /* HEADER STYLES */
 
 #logo {
-    float: left;
-    margin-right: 5%;
-    width: 20%;
+    margin: 0, auto;
+    width: 25%;
+    padding-top: 1rem;
 }
 #header-text {
-    float: right;
-    width: 75%;
+    float: left;
+    width: 100%;
+    margin-left: 0, auto;
+    margin-right: 0, auto;
 }
 #nameplate {
     margin: 0;
