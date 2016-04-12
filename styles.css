@@ -43,10 +43,6 @@ a:visited {
 #container {
     width: 90%;
     margin: 0 auto;
-    padding-left: .60rem;
-    padding-right: .60rem;
-
-
 }
 h2.section-hed {
     text-transform: uppercase;
@@ -63,19 +59,21 @@ h2.section-hed {
     width: 20%;
     margin-top: 0.5rem;
     margin-bottom: 0.25rem;
+    margin-left: 5%;
     float: left;
     max-width: 8rem;
 }
 #header-text {
-    width: 77%;
+    width: 67%;
     float: left;
     padding-left: 3%;
     margin-top: 0.5rem;
     text-align: left;
+    margin-right: 5%;
 }
 #header-text h1 {
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 0;
 }
 #header-text h2 {
@@ -93,6 +91,25 @@ h2.section-hed {
     clear: both;
 }
 
+@media screen and (min-width: 800px) {
+    header {
+        padding: 0 5%;
+    }
+    #logo {
+        margin-left: 0;
+    }
+    #header-text {
+        margin-right: 0;
+        width: auto;
+    }
+    #header-text h1 {
+        font-size: 2rem;
+    }
+    #header-text h2 {
+        font-size: 1.25rem;
+    }
+}
+
 /* MENU - Adapted from Emre: http://codepen.io/emredenx/pen/ojcxl */
 
 header {
@@ -101,7 +118,7 @@ header {
 .search {
     width: 15rem;
     position: absolute;
-    right: 1rem;
+    right: 5%;
     top: 1rem;
 }
 .search form {
@@ -256,8 +273,13 @@ header {
   border-top: 1px solid #333;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
+    .search {
+        right: 0;
+    }
+}
 
+@media screen and (max-width: 800px) {
   nav {
     width: 100%;
   }
@@ -468,15 +490,6 @@ header {
   }
 }
 
-@media screen and (min-width: 800px) {
-    #header-text h1 {
-        font-size: 2rem;
-    }
-    #header-text h2 {
-        font-size: 1.25rem;
-    }
-}
-
 /* LATEST NEWS HOMEPAGE */
 
 .boiler {
@@ -640,7 +653,7 @@ footer {
 #social {
     float: right;
     margin: 0;
-    padding-top: .60rem;
+    padding-top: .6rem;
 }
 #social img {
     width: 2rem;
