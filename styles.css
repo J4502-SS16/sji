@@ -62,7 +62,9 @@ h2.section-hed {
 #logo {
     width: 20%;
     margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
     float: left;
+    max-width: 8rem;
 }
 #header-text {
     width: 77%;
@@ -169,7 +171,7 @@ header {
     float:left;
 }
 #burger > ul > li > a {
-    padding:17px;
+    padding:1rem;
     font-size:1rem;
     letter-spacing:1px;
     text-decoration:none;
@@ -348,7 +350,13 @@ header {
     top: 0;
     cursor: pointer;
     z-index: 12399994;
-    background: #7098C9;
+    background: #fff;
+  }
+  .button:hover {
+      background: #7098C9;
+      -webkit-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      transition: all .3s ease;
   }
 
   .button:after {
@@ -358,9 +366,13 @@ header {
     display: block;
     height: 4px;
     width: 20px;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+    border-top: 2px solid #7098C9;
+    border-bottom: 2px solid #7098C9;
     content: '';
+  }
+  .button:hover:after {
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff;
   }
 
   .button:before {
@@ -373,8 +385,11 @@ header {
     display: block;
     height: 2px;
     width: 20px;
-    background: #fff;
+    background: #7098C9;
     content: '';
+  }
+  .button:hover:before {
+      background: #fff;
   }
 
   .button.menu-opened:after {
@@ -385,23 +400,29 @@ header {
     border: 0;
     height: 2px;
     width: 19px;
-    background: #fff;
+    background: #7098C9;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+  .button.menu-opened:hover:after {
+      background: #fff;
+  }
 
   .button.menu-opened:before {
     top: 23px;
-    background: #fff;
+    background: #7098C9;
     width: 19px;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
+  }
+  .button.menu-opened:hover:before {
+      background: #fff;
   }
 
   #burger .submenu-button {
@@ -410,8 +431,8 @@ header {
     right: 0;
     top: 0;
     display: block;
-    height: calc(1rem + 37px);
-    width: calc(1rem + 37px);
+    height: calc(1rem + 31px);
+    width: calc(1rem + 31px);
     cursor: pointer;
     background: #333;
   }
@@ -424,16 +445,16 @@ header {
   }
 
   #burger ul ul .submenu-button {
-    height: 37px;
-    width: 37px;
+    height: 31px;
+    width: 31px;
   }
 
   #burger .submenu-button:after {
     color: #fff;
     content: "\25BC";
     position: absolute;
-    left: 19px;
-    top: 18px;
+    left: 16px;
+    top: 15px;
   }
 
   #burger ul ul .submenu-button:before {
@@ -445,6 +466,15 @@ header {
   #burger > ul ul > li.has-sub > ul > li.active > a {
     border-top: none;
   }
+}
+
+@media screen and (min-width: 800px) {
+    #header-text h1 {
+        font-size: 2rem;
+    }
+    #header-text h2 {
+        font-size: 1.25rem;
+    }
 }
 
 /* LATEST NEWS HOMEPAGE */
