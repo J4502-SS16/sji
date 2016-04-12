@@ -85,6 +85,28 @@ h2.section-hed {
 header {
     position:relative;
 }
+.search {
+    width: 15rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.search form {
+    width: 100%;
+    border: 0;
+}
+.search form input[type=text] {
+    width: 12rem;
+    float: left;
+    border: 0;
+    padding: 0.25rem !important;
+}
+.search form input[type=submit] {
+    width: 2rem;
+    float: right;
+    border: 0;
+    padding: 0.25rem !important;
+}
 .menu {
     position:relative;
     z-index:123;
@@ -311,7 +333,7 @@ header {
     width: 55px;
     height: 46px;
     position: absolute;
-    right: calc(50% - 27px);
+    left: 0;
     top: 0;
     cursor: pointer;
     z-index: 12399994;

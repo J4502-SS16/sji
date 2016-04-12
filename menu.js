@@ -9,7 +9,7 @@
     return this.each(function() {
     $(this).find(".button").on('click', function(){
      $(this).toggleClass('menu-opened');
-     var mainmenu = $(this).next('ul');
+     var mainmenu = $(this).nextAll('ul');
      if (mainmenu.hasClass('open')) {
        mainmenu.slideToggle().removeClass('open');
      }
