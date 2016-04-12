@@ -437,6 +437,20 @@ header {
 
 /* LATEST NEWS HOMEPAGE */
 
+.boiler {
+    background: #7098C9;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+.boiler a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
 .news-story {
     margin-bottom: 1.5rem;
 }
