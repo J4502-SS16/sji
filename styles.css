@@ -7,6 +7,7 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font=size: 1.2rem;
 
 }
 header {
@@ -107,7 +108,7 @@ h2.section-hed {
         width: auto;
     }
     #header-text h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     #header-text h2 {
         font-size: 1.25rem;
@@ -283,6 +284,15 @@ header {
     }
     p, ul {
         font-size: 1.3rem;
+    }
+    #logo {
+        max-width: 12rem;
+    }
+    #nav-menu {
+        left: calc(5% + 14rem);
+        width: calc(90% - 14rem);
+        position: absolute;
+        bottom: 0;
     }
     #container ul li {
         margin-bottom: 0.25rem;
