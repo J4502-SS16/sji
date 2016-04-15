@@ -310,6 +310,18 @@ header {
     }
 }
 
+@media screen and (min-width: 800px) and (max-width: 1140px) {
+    #logo {
+        max-width: 8rem;
+    }
+    #nav-menu {
+        left: 0;
+        width: 100%;
+        position: static;
+        bottom: 0;
+    }
+}
+
 @media screen and (max-width: 800px) {
   nav {
     width: 100%;
