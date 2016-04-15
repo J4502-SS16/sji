@@ -45,6 +45,9 @@ a:visited {
     width: 90%;
     margin: 0 auto;
 }
+#col-2 {
+    display: none;
+}
 h2.section-hed {
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -53,10 +56,6 @@ h2.section-hed {
     padding-bottom: .05rem;
 
 }
-
-
-
-
 
 /* HEADER STYLES */
 
@@ -299,6 +298,15 @@ header {
     }
     #container ul li:last-of-type {
         margin-bottom: 0;
+    }
+    #col-1 {
+        width: 65%;
+        float: left;
+    }
+    #col-2 {
+        display: block;
+        float: right;
+        width: 32%;
     }
 }
 
