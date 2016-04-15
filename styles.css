@@ -280,6 +280,12 @@ header {
     p, ul {
         font-size: 1.2rem;
     }
+    #container ul li {
+        margin-bottom: 0.25rem;
+    }
+    #container ul li:last-of-type {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 800px) {
