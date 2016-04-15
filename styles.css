@@ -53,6 +53,10 @@ h2.section-hed {
 
 }
 
+
+
+
+
 /* HEADER STYLES */
 
 #logo {
@@ -668,4 +672,12 @@ footer {
 }
 #social img {
     width: 2rem;
+}
+
+/*Homepage for Desktop*/
+
+/* SIDE BARS */
+.connect-sidebar, .twitter-feed {
+  float: right;
+  clear: all;
 }
