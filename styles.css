@@ -640,6 +640,10 @@ header {
 
 }
 
+.testimonial img{
+  width: 30%;
+}
+
 .testimonials h2.section-hed{
   font-size: 3rem;
   text-align: center;
@@ -686,6 +690,7 @@ clear: both;
     width:50%;
     margin:0 auto;
     padding-top: 2em;
+    padding-bottom: 5em;
   }
 }
 
