@@ -617,7 +617,7 @@ header {
     padding-bottom: 1rem;
 }
 
-.testimonial h3 {
+.testimonial h4 {
   font-size:1rem;
 
 }
@@ -667,9 +667,22 @@ header {
 }
 
 /* BOARD OF DIRECTORS*/
-.directors .section-hed {
-  font-size: 1.75rem;
+.directors {
+    clear: both;
+    padding-bottom: 1rem;
+}
 
+.directors h3 {
+  font-size:1.5rem;
+}
+
+.directors p {
+  padding-right: 1.75rem;
+}
+
+.directors img {
+    width: 20%;
+    padding-right:1rem;
 }
 
 /* APPLY PAGE */
