@@ -7,7 +7,7 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font=size: 1.2rem;
+    font-size: 1.2rem;
 
 }
 header {
@@ -707,7 +707,18 @@ footer {
 /*Homepage for Desktop*/
 
 /* SIDE BARS */
-.connect-sidebar, .twitter-feed {
-  float: right;
-  clear: all;
+.connect-sidebar h1{
+  text-align: left;
+  font-size: 1.5em;
+  color: 		#808080;
+  border-bottom: 1px solid #808080; width: 10em; height:1em; padding-bottom: .25em;
+
+}
+
+.connect-sidebar a img{
+  display: inline;
+  width: 20%;
+  padding-right: .5em;
+  padding-bottom: 2em;
+
 }
