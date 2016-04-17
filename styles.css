@@ -307,6 +307,8 @@ header {
         display: block;
         float: right;
         width: 32%;
+        padding-left: 3%;
+
     }
 }
 
@@ -549,7 +551,7 @@ header {
     font-style: normal;
 }
 
-.news-story {
+.news-story, .news-story2 {
     margin-bottom: 1.5rem;
 }
 .latest-news {
@@ -577,6 +579,35 @@ header {
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
+  display:none;
+}
+
+.latest-news{
+  padding-top: 0;
+}
+
+.latest-news img{
+  width: 60%;
+  height:20em;
+  padding-bottom: 0;
+}
+.latest-news p{
+  background-color: #39577D;
+  color: #fff;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: .5em;
+
+}
+
+.latest-news a {
+  color: #fff;
+  padding-top: 1em;
+}
 }
 
 /* TESTIMONIALS HOMEPAGE */
@@ -707,19 +738,21 @@ footer {
 /*Homepage for Desktop*/
 
 /* SIDE BARS */
-.connect-sidebar h1{
+@media screen and (min-width: 800px) {
+.connect-sidebar h1, .twitter-feed h1{
   text-align: left;
   font-size: 1.5em;
   color: 		#808080;
   border-bottom: 1px solid #808080; width: 5em; height:1em; padding-bottom: .25em;
+
 
 }
 
 .connect-sidebar a img{
   display: inline;
   width: 10%;
-  padding-right: .5em;
   padding-bottom: 2em;
+  padding-right: 1em;
 
-
+}
 }
