@@ -615,6 +615,7 @@ header {
 .testimonial {
     clear: both;
     padding-bottom: 1rem;
+
 }
 
 .testimonial h4 {
@@ -632,7 +633,61 @@ header {
     padding-right:1rem;
 }
 
+@media screen and (min-width: 800px) {
 
+.testimonial {
+  width: auto;
+
+}
+
+.testimonials h2.section-hed{
+  font-size: 3rem;
+  text-align: center;
+  color:	#808080;
+  clear: both;
+}
+
+  .testimonial h4 {
+    font-size:1em;
+    color:#39577D;
+    text-align: center;
+
+  }
+
+  .testimonial p {
+    font-size: 1em;
+    text-align: center;
+    width: auto;
+
+  }
+
+
+.testimonial.one{
+
+margin-right: auto;
+margin-left: auto;
+display: inline-block;
+width: 45%;
+padding-right: 2em;
+  }
+
+  .testimonial.two{
+float: right;
+margin-right: auto;
+margin-left: auto;
+display: inline-block;
+width: 45%;
+clear: both;
+
+  }
+
+
+  .testimonial.three{
+    width:50%;
+    margin:0 auto;
+    padding-top: 2em;
+  }
+}
 
 /* ABOUT PAGE*/
 .embed-container {
