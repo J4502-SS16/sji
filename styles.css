@@ -632,6 +632,8 @@ header {
     padding-right:1rem;
 }
 
+
+
 /* ABOUT PAGE*/
 .embed-container {
   position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
@@ -772,22 +774,77 @@ footer {
 
 /*HOMEPAGE BUTTONS*/
 @media screen and (min-width: 800px) {
- #apply-button {
 
-  background-color: blue:
+.homepage-buttons li{
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  padding-right: 1em;
+  padding-bottom: 2em;
+
+}
+
+.homepage-buttons a:hover{
+  color: #000;
+}
+
+.homepage-buttons a{
+  text-decoration: none;
+  display: block;
+}
+
+
+ .apply-button a{
+   background-image: url(images/applybutton.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 2em;
+   width: 7em;
+   display: block;
+   padding: 1.5em 1em 1em 1em;
+   color: #fff;
+   font-size: 1.5em;
+   text-align: center;
+   border: solid 1px black;
+
+
  }
 
+
+
 .alumni-button a{
-  background-image: url(images/banquet.jpg);
-  height: 500px;
-  width: 500px;
+  background-image: url(images/alumnibutton.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2em;
+  width: 7em;
   display: block;
+  padding: 1.5em 1em 1em 1em;
+  color: #fff;
+  font-size: 1.5em;
   text-align: center;
-  padding-top: 2em;
+  border: solid 1px black;
+
+
 
 
   }
 
-  .homepage-buttons #contact-button {
-position: relative;
+  .contact-button a {
+    background-image: url(images/contactbutton.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2em;
+    width: 7em;
+    display: block;
+    padding: 1.5em 1em 1em 1em;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    border: solid 1px black;
+
 }
