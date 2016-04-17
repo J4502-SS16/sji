@@ -769,3 +769,25 @@ footer {
 
 }
 }
+
+/*HOMEPAGE BUTTONS*/
+@media screen and (min-width: 800px) {
+ #apply-button {
+
+  background-color: blue:
+ }
+
+.alumni-button a{
+  background-image: url(images/banquet.jpg);
+  height: 500px;
+  width: 500px;
+  display: block;
+  text-align: center;
+  padding-top: 2em;
+
+
+  }
+
+  .homepage-buttons #contact-button {
+position: relative;
+}
