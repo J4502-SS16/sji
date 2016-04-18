@@ -607,7 +607,9 @@ p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
   color: #fff;
   padding-left: 1rem;
   padding-top: 1rem;
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
+  width: 60%;
+
 
 }
 
@@ -620,32 +622,58 @@ p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
 .story-titles{
   display: block;
   float:right;
-  width: 40%;
-  padding-top: 2rem;
+  width: 38%;
+  padding-top: 0rem;
+
 
 }
 
 .story-titles li{
   list-style: none;
   text-align: left;
-  padding-bottom: 3rem;
+
 
 }
-
 
 
 
 .story-titles a{
   color:#000;
   text-decoration: none;
-  padding: 2rem;
+  padding: 0rem 1rem 1rem 1rem;
+  display: block;
+
 }
 
 .story-titles a:hover{
-  background-color: #7098C9;
-  color: #fff;
+  color: #7098C9;
+  display: block;
+  padding: 0rem 1rem 1rem 1rem;
 
 }
+
+
+
+.story-titles p{
+  background-color: #fff;
+  font-size: .75em;
+  font-style: italic;
+  color:#C99534;
+  padding-left: 0em;
+  padding-bottom: 0em;
+  display: block;
+  padding-top: 0;
+  padding-right: 0em;
+  text-align: left;
+  width: 100%;
+  float: left;
+
+
+
+
+}
+
+
 }
 
 /* TESTIMONIALS HOMEPAGE */
@@ -689,15 +717,13 @@ p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
   text-align: center;
   color:	#808080;
   clear: both;
-  line-height: .3;
   display: inline-block;
   position: relative;
-  content: "";
   height: 5px;
-  border-bottom: 3px solid #808080;
   top: 0;
   width: 100%;
-  padding-top: .5rem;
+  padding-top: .5em;
+  padding-bottom: 2em;
 
 }
 
@@ -945,7 +971,7 @@ footer {
         text-align: center;
     }
     .homepage-buttons a:hover{
-        color: #000;
+        color: 	#000;
     }
 
     .homepage-buttons a{
