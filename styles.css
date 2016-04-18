@@ -598,21 +598,21 @@ header {
 
 .latest-news img{
   width: 60%;
-  height:20em;
+  height:20rem;
   padding-bottom: 0;
 }
 .latest-news p{
   background-color: #39577D;
   color: #fff;
-  padding-left: 1em;
-  padding-top: 1em;
-  padding-bottom: .5em;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
 
 }
 
 .latest-news a {
   color: #fff;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 
@@ -620,14 +620,14 @@ header {
   display: block;
   float:right;
   width: 40%;
-  padding-top: 2em;
+  padding-top: 2rem;
 
 }
 
 .story-titles li{
   list-style: none;
   text-align: left;
-  padding-bottom: 3em;
+  padding-bottom: 3rem;
 
 }
 
@@ -637,7 +637,7 @@ header {
 .story-titles a{
   color:#000;
   text-decoration: none;
-  padding: 2em 2em 2em 2em;
+  padding: 2rem;
 }
 
 .story-titles a:hover{
@@ -696,19 +696,19 @@ header {
   border-bottom: 3px solid #808080;
   top: 0;
   width: 100%;
-  padding-top: .5em;
+  padding-top: .5rem;
 
 }
 
   .testimonial h4 {
-    font-size:1em;
+    font-size:1rem;
     color:#39577D;
     text-align: center;
 
   }
 
   .testimonial p {
-    font-size: 1em;
+    font-size: 1rem;
     text-align: center;
     width: auto;
 
@@ -721,7 +721,7 @@ margin-right: auto;
 margin-left: auto;
 display: inline-block;
 width: 45%;
-padding-right: 2em;
+padding-right: 2rem;
   }
 
   .testimonial.two{
@@ -738,8 +738,8 @@ clear: both;
   .testimonial.three{
     width:50%;
     margin:0 auto;
-    padding-top: 2em;
-    padding-bottom: 5em;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
   }
 }
 
@@ -789,7 +789,7 @@ clear: both;
 
 .directors p {
   padding-right:3rem;
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
   float: left;
   width: 30%;
 }
@@ -867,25 +867,27 @@ footer {
 
 /* SIDE BARS */
 @media screen and (min-width: 800px) {
-.connect-sidebar h1, .twitter-feed h1{
-  text-align: left;
-  font-size: 1.5em;
-  color: 		#808080;
-  border-bottom: 3px solid #808080; width: 100%; height:1em; padding-bottom: .25em;
+    .connect-sidebar h1, .twitter-feed h1{
+      text-align: left;
+      font-size: 1.5rem;
+      color: #808080;
+      border-bottom: 3px solid #808080;
+      width: 100%;
+      height:1rem;
+      padding-bottom: .25rem;
+    }
 
-}
+    .connect-sidebar {
+      border-left: 3px solid #808080;
+      padding-left: 1rem;
+    }
 
-.connect-sidebar {
-  border-left: 3px solid #808080;
-  padding-left: 1em;
-}
-
-.connect-sidebar a img{
-  display: inline;
-  width: 15%;
-  padding-bottom: 1em;
-  padding-right: 1em;
-}
+    .connect-sidebar a img{
+      display: inline;
+      width: 15%;
+      padding-bottom: 1rem;
+      padding-right: 1rem;
+    }
 }
 
 /*HOMEPAGE BUTTONS*/
