@@ -681,11 +681,23 @@ header {
   width: 30%;
 }
 
+
+
 .testimonials h2.section-hed{
   font-size: 3rem;
   text-align: center;
   color:	#808080;
   clear: both;
+  line-height: .3;
+  display: inline-block;
+  position: relative;
+  content: "";
+  height: 5px;
+  border-bottom: 3px solid #808080;
+  top: 0;
+  width: 100%;
+  padding-top: .5em;
+
 }
 
   .testimonial h4 {
