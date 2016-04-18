@@ -124,6 +124,7 @@ header {
     position: absolute;
     right: 5%;
     top: 1rem;
+    z-index: 9999;
 }
 .search form {
     width: 100%;
