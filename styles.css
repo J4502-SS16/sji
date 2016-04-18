@@ -588,7 +588,7 @@ header {
 }
 
 @media screen and (min-width: 800px) {
-.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
+p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
   display:none;
 }
 
