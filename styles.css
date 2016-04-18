@@ -839,6 +839,11 @@ clear: both;
         margin-bottom: 0.5rem;
         float: left;
     }
+
+    .about p{
+      float: right;
+      clear: both;
+    }
 }
 
 /* BOARD OF DIRECTORS*/
