@@ -844,27 +844,29 @@ clear: both;
 }
 
 /* BOARD OF DIRECTORS*/
-.directors {
-    clear: both;
-    padding-bottom: 1rem;
+
+.board-members {
+  display: block;
+  text-align: center;
 }
 
-.directors h3 {
-  font-size:1.5rem;
+.board-members img{
+  width: 40%;
+
 }
 
-.directors p {
-  padding-right:3rem;
-  padding-bottom: 2rem;
-  float: left;
-  width: 30%;
+.board-members.left {
+  float:left;
+  width: 50%;
 }
 
-.directors img {
-    width: 10%;
-    float: left;
-    padding-right:1rem;
+.board-members.right {
+  float: right;
+  width: 50%;
 }
+
+
+
 
 /* APPLY PAGE */
 
