@@ -745,10 +745,18 @@ clear: both;
 
 /* ABOUT PAGE*/
 .embed-container {
-  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
 }
 .embed-container iframe, .embed-container object, .embed-container embed {
-  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -765,16 +773,27 @@ clear: both;
 
 /* SUMMER PROGRAMS & ABOUT PAGE*/
 
-.About .section-hed {
+.about .section-hed {
   padding-top: 1rem;
 }
-
-.About {
+.about {
   padding-bottom: 1rem;
 }
-
-.About iframe {
+.about iframe {
   padding-top: .5rem;
+}
+.about-video {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+}
+
+@media screen and (min-width: 800px) {
+    .about-video {
+        width: 48%;
+        margin-right: 4%;
+        float: left;
+    }
 }
 
 /* BOARD OF DIRECTORS*/
