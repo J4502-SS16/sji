@@ -868,9 +868,33 @@ clear: both;
   width: 50%;
 }
 
+.board-members ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 
+}
+.board-members p{
+  width:70%
+}
+.board-members li{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    width: 33%;
+  text-align: center;
+  display: inline-block;
+  float: left;
+}
 
+.directors h3{
+  font-size: 1.5rem;
+}
 
+.sponsors{
+  clear: both;
+}
 /* APPLY PAGE */
 
 .apply .section-hed {
