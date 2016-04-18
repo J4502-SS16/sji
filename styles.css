@@ -927,52 +927,55 @@ footer {
 
 /*HOMEPAGE BUTTONS*/
 @media screen and (min-width: 800px) {
+    .homepage-buttons ul {
+        padding: 0;
+        position: absolute;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        top: calc(50% - 1.35rem);
+    }
+    .homepage-buttons li{
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        list-style:none;
+        font-size: 150%;
+        text-align: center;
+    }
+    .homepage-buttons a:hover{
+        color: #000;
+    }
 
-.homepage-buttons ul {
-    padding: 0;
-}
-.homepage-buttons li{
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  list-style:none;
-  font-size: 150%;
-  text-align: center;
-}
-.homepage-buttons a:hover{
-  color: #000;
-}
+    .homepage-buttons a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
 
-.homepage-buttons a{
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
+     .homepage-button{
+         background-image: url(images/applybutton.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         border: 1px solid #000;
+         width: 30%;
+         height: 80px;
+         margin-right: calc(4.5% - 4px);
+         display: inline-block;
+         position: relative;
+     }
+     .homepage-button:last-of-type {
+         margin-right: 0;
+     }
 
- .homepage-button{
- background-image: url(images/applybutton.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
- border: 1px solid #000;
- width: 30%;
- height: 80px;
- margin-right: calc(4.5% - 4px);
- display: inline-block;
- }
- .homepage-button:last-of-type {
-     margin-right: 0;
- }
+     .homepage-button.alumni{
+         background-image: url(images/alumnibutton.jpg);
+     }
 
- .homepage-button.alumni{
-   background-image: url(images/alumnibutton.jpg);
-
-   }
-
-   .homepage-button.contact {
-     background-image: url(images/contactbutton.jpg);
-
- }
+    .homepage-button.contact {
+        background-image: url(images/contactbutton.jpg);
+    }
 }
 /* ALUMNI */
 
