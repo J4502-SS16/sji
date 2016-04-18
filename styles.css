@@ -882,6 +882,7 @@ footer {
   padding: 0;
   list-style:none;
   font-size: 150%;
+  text-align: center;
 }
 .homepage-buttons a:hover{
   color: #000;
