@@ -977,7 +977,7 @@ footer {
 /* ALUMNI */
 
 ul.toc {
-    width: 100%;
+    width: calc(100% - 1.5rem);
     margin: 1rem 0 0;
     list-style; none outside none;
 }
