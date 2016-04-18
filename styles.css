@@ -1027,6 +1027,10 @@ ul.toc li {
     content: " / ";
 }
 
+#alumni li {
+  list-style-type: none;
+}
+
 @media screen and (min-width: 800px) {
     ul.toc {
         width: 50%;
