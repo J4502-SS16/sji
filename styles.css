@@ -537,6 +537,7 @@ header {
 
 /* LATEST NEWS HOMEPAGE */
 
+
 .boiler {
     background: #7098C9;
     color: #fff;
@@ -550,6 +551,7 @@ header {
     text-transform: uppercase;
     font-style: normal;
 }
+
 
 .news-story, .news-story2 {
     margin-bottom: 1.5rem;
@@ -582,7 +584,7 @@ header {
 }
 
 .story-titles{
-  display: none;
+  display:none;
 }
 
 @media screen and (min-width: 800px) {
@@ -612,7 +614,7 @@ header {
   color: #fff;
   padding-top: 1em;
 }
-}
+
 
 .story-titles{
   display: block;
@@ -631,6 +633,7 @@ header {
 
 
 
+
 .story-titles a{
   color:#000;
   text-decoration: none;
@@ -641,6 +644,7 @@ header {
   background-color: #7098C9;
   color: #fff;
 
+}
 }
 
 /* TESTIMONIALS HOMEPAGE */
@@ -871,14 +875,14 @@ footer {
 
 .homepage-buttons li{
   text-decoration: none;
-  float: left;
-  text-align: center;
-  position: relative;
   margin: 0;
   padding: 0;
   list-style:none;
-  padding-right: 1em;
-  padding-bottom: 2em;
+  font-size: 150%;
+ text-align: center;
+
+
+
 
 }
 
@@ -888,60 +892,36 @@ footer {
 
 .homepage-buttons a{
   text-decoration: none;
-  display: block;
+  color: #fff;
+  font-weight: bold;
+
+
+
 }
 
 
- .apply-button a{
-   background-image: url(images/applybutton.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   height: 2em;
-   width: 7em;
-   display: block;
-   padding: 1.5em 1em 1em 1em;
-   color: #fff;
-   font-size: 1.5em;
-   text-align: center;
-   border: solid 1px black;
-
+ .homepage-button{
+ background-image: url(images/applybutton.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ border: 1px solid #000;
+ width: 25%;
+ height: 80px;
+ padding: 4%;
+float: left;
 
  }
 
+ .homepage-button.alumni{
+   background-image: url(images/alumnibutton.jpg);
 
+   }
 
-.alumni-button a{
-  background-image: url(images/alumnibutton.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 2em;
-  width: 7em;
-  display: block;
-  padding: 1.5em 1em 1em 1em;
-  color: #fff;
-  font-size: 1.5em;
-  text-align: center;
-  border: solid 1px black;
+   .homepage-button.contact {
+     background-image: url(images/contactbutton.jpg);
 
-
-
-
-  }
-
-  .contact-button a {
-    background-image: url(images/contactbutton.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 2em;
-    width: 7em;
-    display: block;
-    padding: 1.5em 1em 1em 1em;
-    color: #fff;
-    font-size: 1.5em;
-    text-align: center;
-    border: solid 1px black;
-
-}
+ }
 
 /* ALUMNI */
 
