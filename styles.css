@@ -944,7 +944,7 @@ footer {
         text-align: center;
     }
     .homepage-buttons a:hover{
-        color: #000;
+        color: #39577D;
     }
 
     .homepage-buttons a{
@@ -958,7 +958,7 @@ footer {
          background-repeat: no-repeat;
          background-size: cover;
          background-position: center;
-         border: 1px solid #000;
+         border: 1px solid #39577D;
          width: 30%;
          height: 80px;
          margin-right: calc(4.5% - 4px);
