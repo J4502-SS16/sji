@@ -581,6 +581,10 @@ header {
     font-weight: bold;
 }
 
+.story-titles{
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
 .boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
   display:none;
@@ -608,6 +612,35 @@ header {
   color: #fff;
   padding-top: 1em;
 }
+}
+
+.story-titles{
+  display: block;
+  float:right;
+  width: 40%;
+  padding-top: 2em;
+
+}
+
+.story-titles li{
+  list-style: none;
+  text-align: left;
+  padding-bottom: 3em;
+
+}
+
+
+
+.story-titles a{
+  color:#000;
+  text-decoration: none;
+  padding: 2em 2em 2em 2em;
+}
+
+.story-titles a:hover{
+  background-color: #7098C9;
+  color: #fff;
+
 }
 
 /* TESTIMONIALS HOMEPAGE */
@@ -828,6 +861,7 @@ footer {
   width: 10%;
   padding-bottom: 2em;
   padding-right: 1em;
+
 
 }
 }
