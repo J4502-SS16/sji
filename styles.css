@@ -124,6 +124,7 @@ header {
     position: absolute;
     right: 5%;
     top: 1rem;
+    z-index: 9999;
 }
 .search form {
     width: 100%;
@@ -537,6 +538,7 @@ header {
 
 /* LATEST NEWS HOMEPAGE */
 
+
 .boiler {
     background: #7098C9;
     color: #fff;
@@ -550,6 +552,7 @@ header {
     text-transform: uppercase;
     font-style: normal;
 }
+
 
 .news-story, .news-story2 {
     margin-bottom: 1.5rem;
@@ -581,8 +584,12 @@ header {
     font-weight: bold;
 }
 
+.story-titles{
+  display:none;
+}
+
 @media screen and (min-width: 800px) {
-.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
+p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
   display:none;
 }
 
@@ -592,22 +599,81 @@ header {
 
 .latest-news img{
   width: 60%;
-  height:20em;
+  height:20rem;
   padding-bottom: 0;
 }
 .latest-news p{
   background-color: #39577D;
   color: #fff;
-  padding-left: 1em;
-  padding-top: 1em;
-  padding-bottom: .5em;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 60%;
+
 
 }
 
 .latest-news a {
   color: #fff;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
+
+
+.story-titles{
+  display: block;
+  float:right;
+  width: 38%;
+  padding-top: 0rem;
+
+
+}
+
+.story-titles li{
+  list-style: none;
+  text-align: left;
+
+
+}
+
+
+
+.story-titles a{
+  color:#000;
+  text-decoration: none;
+  padding: 0rem 1rem 1rem 1rem;
+  display: block;
+
+}
+
+.story-titles a:hover{
+  color: #7098C9;
+  display: block;
+  padding: 0rem 1rem 1rem 1rem;
+
+}
+
+
+
+.story-titles p{
+  background-color: #fff;
+  font-size: .75em;
+  font-style: italic;
+  color:#C99534;
+  padding-left: 0em;
+  padding-bottom: 0em;
+  display: block;
+  padding-top: 0;
+  padding-right: 0em;
+  text-align: left;
+  width: 100%;
+  float: left;
+
+
+
+
+}
+
+
 }
 
 /* TESTIMONIALS HOMEPAGE */
@@ -615,6 +681,7 @@ header {
 .testimonial {
     clear: both;
     padding-bottom: 1rem;
+
 }
 
 .testimonial h4 {
@@ -632,12 +699,95 @@ header {
     padding-right:1rem;
 }
 
+@media screen and (min-width: 800px) {
+
+.testimonial {
+  width: auto;
+
+}
+
+.testimonial img{
+  width: 30%;
+}
+
+
+
+.testimonials h2.section-hed{
+  font-size: 2.5rem;
+  text-align: center;
+  color:	#808080;
+  clear: both;
+  display: inline-block;
+  position: relative;
+  height: 5px;
+  top: 0;
+  width: 100%;
+<<<<<<< HEAD
+  padding-top: .5em;
+  padding-bottom: 2em;
+=======
+  padding-top: 2rem;
+>>>>>>> origin/gh-pages
+
+}
+
+  .testimonial h4 {
+    font-size:1rem;
+    color:#39577D;
+    text-align: center;
+
+  }
+
+  .testimonial p {
+    font-size: 1rem;
+    text-align: center;
+    width: auto;
+
+  }
+
+
+.testimonial.one{
+
+margin-right: auto;
+margin-left: auto;
+display: inline-block;
+width: 45%;
+padding-right: 2rem;
+  }
+
+  .testimonial.two{
+float: right;
+margin-right: auto;
+margin-left: auto;
+display: inline-block;
+width: 45%;
+clear: both;
+
+  }
+
+
+  .testimonial.three{
+    width:50%;
+    margin:0 auto;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+}
+
 /* ABOUT PAGE*/
 .embed-container {
-  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
 }
 .embed-container iframe, .embed-container object, .embed-container embed {
-  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -652,18 +802,45 @@ header {
   font-size: 1.1rem;
 }
 
+@media screen and (min-width: 800px) {
+    .latest-news-page {
+        width: 76%;
+        float: left;
+        border-bottom: none;
+        border-right: 1px solid #39577D;
+        padding-right: 2%;
+        margin-right: 2%;
+    }
+    .archive {
+        width: calc(20% - 1px);
+        float: left;
+    }
+}
+
 /* SUMMER PROGRAMS & ABOUT PAGE*/
 
-.About .section-hed {
+.about .section-hed {
   padding-top: 1rem;
 }
-
-.About {
+.about {
   padding-bottom: 1rem;
 }
-
-.About iframe {
+.about iframe {
   padding-top: .5rem;
+}
+.about-video {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+}
+
+@media screen and (min-width: 800px) {
+    .about-video {
+        width: 48%;
+        margin-right: 4%;
+        margin-bottom: 0.5rem;
+        float: left;
+    }
 }
 
 /* BOARD OF DIRECTORS*/
@@ -677,11 +854,15 @@ header {
 }
 
 .directors p {
-  padding-right: 1.75rem;
+  padding-right:3rem;
+  padding-bottom: 2rem;
+  float: left;
+  width: 30%;
 }
 
 .directors img {
-    width: 20%;
+    width: 10%;
+    float: left;
     padding-right:1rem;
 }
 
@@ -752,20 +933,97 @@ footer {
 
 /* SIDE BARS */
 @media screen and (min-width: 800px) {
-.connect-sidebar h1, .twitter-feed h1{
-  text-align: left;
-  font-size: 1.5em;
-  color: 		#808080;
-  border-bottom: 1px solid #808080; width: 5em; height:1em; padding-bottom: .25em;
+    .connect-sidebar h1, .twitter-feed h1{
+      text-align: left;
+      font-size: 1.5rem;
+      color: #808080;
+      border-bottom: 3px solid #808080;
+      width: 100%;
+      height:1rem;
+      padding-bottom: 1rem;
+    }
 
+    .connect-sidebar {
+      border-left: 3px solid #808080;
+      padding-left: 1rem;
+    }
 
+    .connect-sidebar a img{
+      display: inline;
+      width: 15%;
+      padding-bottom: 1rem;
+      padding-right: 1rem;
+    }
 }
 
-.connect-sidebar a img{
-  display: inline;
-  width: 10%;
-  padding-bottom: 2em;
-  padding-right: 1em;
+/*HOMEPAGE BUTTONS*/
+@media screen and (min-width: 800px) {
+    .homepage-buttons ul {
+        padding: 0;
+        position: absolute;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        top: calc(50% - 1.35rem);
+    }
+    .homepage-buttons li{
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        list-style:none;
+        font-size: 150%;
+        text-align: center;
+    }
+    .homepage-buttons a:hover{
+        color: 	#000;
+    }
 
+    .homepage-buttons a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+     .homepage-button{
+         background-image: url(images/applybutton.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         border: 1px solid #39577D;
+         width: 30%;
+         height: 80px;
+         margin-right: calc(4.5% - 4px);
+         display: inline-block;
+         position: relative;
+     }
+     .homepage-button:last-of-type {
+         margin-right: 0;
+     }
+
+     .homepage-button.alumni{
+         background-image: url(images/alumnibutton.jpg);
+     }
+
+    .homepage-button.contact {
+        background-image: url(images/contactbutton.jpg);
+    }
 }
+/* ALUMNI */
+
+ul.toc {
+    width: calc(100% - 1.5rem);
+    margin: 1rem 0 0;
+    list-style; none outside none;
+}
+ul.toc li {
+    display: inline;
+}
+.toc li:after {
+    content: " / ";
+}
+
+@media screen and (min-width: 800px) {
+    ul.toc {
+        width: 50%;
+    }
 }
