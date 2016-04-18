@@ -135,12 +135,18 @@ header {
     float: left;
     border: 0;
     padding: 0.25rem !important;
+    border-radius: .25em;
+
 }
 .search form input[type=submit] {
     width: 2rem;
     float: right;
     border: 0;
     padding: 0.25rem !important;
+    background: #7098C9;
+    color: #fff;
+    border-radius: .25em;
+
 }
 .menu {
     position:relative;
@@ -595,28 +601,44 @@ p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
 
 .latest-news{
   padding-top: 0;
+
 }
 
 .latest-news img{
   width: 60%;
-  height:20rem;
+  height:30rem;
   padding-bottom: 0;
+  display: block;
+  border: 1px solid black;
+  padding: 0;
+
+
+
 }
 .latest-news p{
-  background-color: #39577D;
-  color: #fff;
-  padding-left: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  width: 60%;
+  color: #000;
+  width: 95%;
+  display: block;
+  padding-bottom: 1em;
+  padding-top: 5em;
+
 
 
 }
 
 .latest-news a {
-  color: #fff;
-  padding-top: 1rem;
+  color: #000;
+  float: right;
+  padding-top: 1em;
+
+
 }
+
+.news-story.main a{
+  color: #000;
+  float: left;
+}
+
 
 
 .story-titles{
@@ -965,6 +987,17 @@ footer {
     width: 2rem;
 }
 
+@media screen and (min-width: 800px) {
+
+
+#social img{
+  width: 3rem;
+  padding-right: .5rem;
+
+}
+
+
+}
 /*Homepage for Desktop*/
 
 /* SIDE BARS */
