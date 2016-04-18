@@ -771,6 +771,21 @@ clear: both;
   font-size: 1.1rem;
 }
 
+@media screen and (min-width: 800px) {
+    .latest-news-page {
+        width: 76%;
+        float: left;
+        border-bottom: none;
+        border-right: 1px solid #39577D;
+        padding-right: 2%;
+        margin-right: 2%;
+    }
+    .archive {
+        width: calc(20% - 1px);
+        float: left;
+    }
+}
+
 /* SUMMER PROGRAMS & ABOUT PAGE*/
 
 .about .section-hed {
