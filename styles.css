@@ -788,11 +788,15 @@ clear: both;
 }
 
 .directors p {
-  padding-right: 1.75rem;
+  padding-right:3rem;
+  padding-bottom: 2em;
+  float: left;
+  width: 30%;
 }
 
 .directors img {
-    width: 20%;
+    width: 10%;
+    float: left;
     padding-right:1rem;
 }
 
