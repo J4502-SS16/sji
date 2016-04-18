@@ -1045,11 +1045,10 @@ footer {
     }
 }
 /* ALUMNI */
-
 ul.toc {
     width: calc(100% - 1.5rem);
     margin: 1rem 0 0;
-    list-style; none outside none;
+    list-style: none outside none;
 }
 ul.toc li {
     display: inline;
@@ -1064,6 +1063,22 @@ ul.toc li {
 
 @media screen and (min-width: 800px) {
     ul.toc {
-        width: 50%;
+        width: 100%;
+        padding: 1em 1em 1em 1em
     }
+    .toc{ background-color: #39577D}
+}
+.toc.boiler {
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+.toc.boiler b{
+  font-style: normal;
+}
+
+ul.toc.boiler a{
+  padding-right: .5em;
+  padding-left: .5em;
+  font-size: 1.5rem;
 }
