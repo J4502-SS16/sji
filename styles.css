@@ -874,7 +874,7 @@ footer {
 @media screen and (min-width: 800px) {
 
 .homepage-buttons ul {
-    paddibg: 0;
+    padding: 0;
 }
 .homepage-buttons li{
   text-decoration: none;
