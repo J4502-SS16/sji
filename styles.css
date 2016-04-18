@@ -722,12 +722,10 @@ p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
   height: 5px;
   top: 0;
   width: 100%;
-<<<<<<< HEAD
   padding-top: .5em;
   padding-bottom: 2em;
-=======
   padding-top: 2rem;
->>>>>>> origin/gh-pages
+
 
 }
 
