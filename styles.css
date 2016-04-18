@@ -944,7 +944,7 @@ footer {
         text-align: center;
     }
     .homepage-buttons a:hover{
-        color: #39577D;
+        color: #000;
     }
 
     .homepage-buttons a{
@@ -967,9 +967,6 @@ footer {
      }
      .homepage-button:last-of-type {
          margin-right: 0;
-     }
-     .homepage-button:hover {
-         opacity: 0.7;
      }
 
      .homepage-button.alumni{
