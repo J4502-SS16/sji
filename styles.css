@@ -685,7 +685,7 @@ p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
 
 
 .testimonials h2.section-hed{
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   color:	#808080;
   clear: both;
@@ -697,7 +697,7 @@ p.boiler, .latest-news time, .latest-news h3 a, .latest-news h2, .news-story2{
   border-bottom: 3px solid #808080;
   top: 0;
   width: 100%;
-  padding-top: .5rem;
+  padding-top: 2rem;
 
 }
 
