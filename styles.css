@@ -942,3 +942,18 @@ footer {
     border: solid 1px black;
 
 }
+
+/* ALUMNI */
+
+ul.toc {
+    width: 50%;
+    margin: 1rem 0 0;
+    padding: 0;
+}
+ul.toc li {
+    list-style; none outside none;
+    display: inline;
+}
+.toc li:after {
+    content: " / ";
+}
