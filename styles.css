@@ -284,6 +284,18 @@ header {
   border-top: 1px solid #333;
 }
 
+@media screen and (min-width: 480px) and (max-width: 799px) {
+    #header-text h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 940px) {
+    .search {
+        top: -8rem;
+    }
+}
+
 @media screen and (min-width: 800px) {
     .search {
         right: 0;
@@ -1082,12 +1094,22 @@ ul.toc {
     width: calc(100% - 1.5rem);
     margin: 1rem 0 0;
     list-style: none outside none;
+    background-color: #39577D;
 }
 ul.toc li {
     display: inline;
 }
 .toc li:after {
     content: " / ";
+}
+.toc li:last-of-type:after {
+    content: "";
+}
+ul.toc li a {
+    font-weight: normal;
+}
+ul.toc li a:hover {
+    font-weight: bold;
 }
 
 #alumni li {
@@ -1096,17 +1118,17 @@ ul.toc li {
 
 @media screen and (min-width: 800px) {
     ul.toc {
-        width: 100%;
-        padding: 1em 1em 1em 1em
+        width: 96%;
+        padding: 0.5rem 2%;
     }
-    .toc{ background-color: #39577D}
 }
+
 .toc.boiler {
   text-align: center;
   font-size: 1.5rem;
-
+  line-height: 2rem;
 }
-.toc.boiler b{
+.toc.boiler b {
   font-style: normal;
 }
 
