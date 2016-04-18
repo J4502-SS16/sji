@@ -973,18 +973,23 @@ footer {
      background-image: url(images/contactbutton.jpg);
 
  }
-
+}
 /* ALUMNI */
 
 ul.toc {
-    width: 50%;
+    width: 100%;
     margin: 1rem 0 0;
-    padding: 0;
+    list-style; none outside none;
 }
 ul.toc li {
-    list-style; none outside none;
     display: inline;
 }
 .toc li:after {
     content: " / ";
+}
+
+@media screen and (min-width: 800px) {
+    ul.toc {
+        width: 50%;
+    }
 }
