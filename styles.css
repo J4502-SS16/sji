@@ -744,9 +744,6 @@ clear: both;
 }
 
 /* ABOUT PAGE*/
-
-@media screen and (max-width: 800px) {
-
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -760,24 +757,6 @@ clear: both;
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-}
-
-@media screen and (min-width: 800px) {
-
-.embed-container {
-    width: 100%;
-    float: left;
-    padding-right: 2em;
-    padding-top: .5em;
-    padding-bottom: 2em;
-  }
-
-  .embed-container iframe, .embed-container object, .embed-container embed {
-    width: 100%;
-  }
-
 }
 
 
