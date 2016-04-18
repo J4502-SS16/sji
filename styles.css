@@ -902,7 +902,7 @@ footer {
  border: 1px solid #000;
  width: 30%;
  height: 80px;
- margin-right: calc(4.5% - 3px);
+ margin-right: calc(4.5% - 4px);
  display: inline-block;
  }
  .homepage-button:last-of-type {
