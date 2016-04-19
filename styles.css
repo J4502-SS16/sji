@@ -578,8 +578,6 @@ header {
     text-transform: uppercase;
     font-style: normal;
 }
-
-
 .news-story, .news-story2 {
     margin-bottom: 1.5rem;
 }
@@ -648,18 +646,13 @@ header {
       display: block;
       padding-bottom: 1em;
     }
-    .latest-news a {
-      float: right;
-      padding-top: 1em;
-    }
-    .news-story.main h3 a{
+    .news-story.main h3 a {
       color: #000;
-      float: left;
+      float: none;
       padding-bottom: .5em;
       font-size: 1.5em;
       text-decoration: none;
-      padding-top:1em;
-
+      padding-top: 1em;
     }
     .news-story.main h3 a:hover{
       text-decoration: none;
@@ -672,39 +665,40 @@ header {
       width: 32%;
     }
     .story-titles ul {
-        padding: 0;
+        padding: 0 0 0 1rem;
+        margin: 0;
     }
     .story-titles li{
       list-style: none;
       text-align: left;
       font-weight: bold;
+      padding-bottom: 0.5rem;
     }
     .story-titles a{
       color:#000;
       text-decoration: none;
-      padding: 1rem 1rem 1rem 1rem;
       display: block;
-
     }
     .story-titles a:hover{
       color: #7098C9;
       display: block;
-      padding: 1rem 1rem 1rem 1rem;
-
     }
     .story-titles p{
       background-color: #fff;
       font-size: .75em;
       font-style: italic;
       color:#C99534;
-      padding-left: 0em;
-      padding-bottom: 0em;
       display: block;
-      padding-top: 0;
-      padding-right: 0em;
+      padding: 0;
       text-align: left;
       width: 100%;
-      float: left;
+      text-align: left;
+      font-weight: normal;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 940px) {
+    .story-titles ul li:last-of-type {
+        display: none;
     }
 }
 
