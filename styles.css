@@ -609,37 +609,46 @@ header {
     font-size: 0.9rem;
     font-weight: bold;
 }
-
-.story-titles{
+.story-titles {
   display:none;
 }
 
 
 /*LATEST NEWS ON HOMEPAGE*/
 @media screen and (min-width: 800px) {
-    p.boiler,.news-story time, .news-story2 {
+    p.boiler, .news-story2 {
       display:none;
     }
     .latest-news{
       padding-top: 0;
     }
-    .latest-news img{
-      width: 60%;
-      height:30rem;
-      padding-bottom: 0;
-      display: block;
-      border: 1px solid black;
-      padding: 0em;
+    .news-story.main {
+        width: 66%;
+        float: left;
+    }
+    .img-wrap {
+        position: relative;
+        width: 100%;
+        height: 24.5vw;
+        overflow: hidden;
+        border: 1px solid black;
+    }
+    .latest-news img {
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+      padding: 0;
     }
     .latest-news p{
       color: #000;
       width: 95%;
       display: block;
       padding-bottom: 1em;
-      padding-top: 1em;
     }
     .latest-news a {
-      color: #000;
       float: right;
       padding-top: 1em;
     }
@@ -658,8 +667,12 @@ header {
     }
     .story-titles {
       display: block;
-      float:right;
-      width: 38%;
+      float: right;
+      margin-left: 2%;
+      width: 32%;
+    }
+    .story-titles ul {
+        padding: 0;
     }
     .story-titles li{
       list-style: none;
