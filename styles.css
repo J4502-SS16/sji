@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    color: #7098c9;
 }
 a:visited {
     color: #7098C9;
@@ -607,6 +607,11 @@ header {
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: bold;
+    text-decoration: none;
+    color: #39577d;
+}
+.read-more a:hover{
+  color: #7098c9;
 }
 .story-titles {
   display:none;
@@ -748,7 +753,7 @@ header {
     .testimonials h2.section-hed{
       font-size: 2.5rem;
       text-align: center;
-      color: #808080;
+      color: #39577D;
       clear: both;
       display: inline-block;
       position: relative;
