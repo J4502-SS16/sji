@@ -584,6 +584,7 @@ header {
 .latest-news {
     border-bottom: 1px solid #39577D;
     margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 .latest-news time {
     text-transform: uppercase;
@@ -699,9 +700,17 @@ header {
       text-align: left;
       font-weight: normal;
     }
+    li.more-news-link {
+        margin-top: 1rem;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    li.more-news-link a {
+        color: #39577D;
+    }
 }
-@media screen and (min-width: 800px) and (max-width: 1020px) {
-    .story-titles ul li:last-of-type {
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .story-titles ul li:nth-of-type(4) {
         display: none;
     }
 }
