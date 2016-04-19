@@ -321,7 +321,9 @@ header {
         margin-bottom: 0;
     }
     #col-1 {
-        width: 65%;
+        width: calc(62% - 3px);
+        border-right: 3px solid #808080;
+        padding-right: 3%;
         float: left;
     }
     #col-2 {
@@ -1055,11 +1057,6 @@ footer {
       width: 100%;
       height:1rem;
       padding-bottom: 1rem;
-    }
-
-    .connect-sidebar {
-      border-left: 3px solid #808080;
-      padding-left: 1rem;
     }
 
     .connect-sidebar a img{
