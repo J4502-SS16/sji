@@ -916,18 +916,96 @@ header {
 
 .board-members p{
   font-size: 1em;
+  padding-bottom: 2em;
 }
 
 .directors h3{
   font-size: 2rem;
   text-align: center;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   padding-top: 2em;
 }
 
 .sponsors{
   clear: both;
+  text-align: center;
 }
+
+.sponsors li {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 2em;
+}
+
+
+@media screen and (max-width: 800px) {
+
+.board-members {
+  text-align: left;
+}
+
+.board-members img{
+  width: 50%;
+  margin 0;
+
+}
+
+.board-members.left {
+  float:none;
+  width: 50%;
+}
+
+.board-members.right {
+  float:none;
+  width: 50%;
+}
+
+.board-members ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  float: none;
+}
+
+.board-members li{
+    text-decoration: none;
+    margin: 0;
+    padding-right: 0em;
+    list-style:none;
+    width: 33%;
+  text-align: left;
+  float: none;
+
+}
+
+.board-members p{
+  font-size: 1em;
+}
+
+.directors h3{
+  font-size: 2rem;
+  text-align: left;
+  padding-bottom: .5em;
+  padding-top: 1em;
+}
+
+.sponsors{
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.sponsors li {
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+
+}
+
+}
+
+
 /* APPLY PAGE */
 
 .apply .section-hed {
