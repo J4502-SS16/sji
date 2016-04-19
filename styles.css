@@ -843,11 +843,13 @@ clear: both;
 .latest-news.latest-news-page img{
   float: left;
   clear: both;
+  width: 40%;
+  height: 200px;
 }
 
 .latest-news.latest-news-page p{
-  float: left;
-  clear: both;
+  float: right;
+  width: 50%;
 }
 
 /* SUMMER PROGRAMS & ABOUT PAGE*/
