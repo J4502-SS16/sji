@@ -936,19 +936,6 @@ header {
   padding-top: 2em;
 }
 
-.sponsors{
-  clear: both;
-  text-align: center;
-}
-
-.sponsors li {
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
-  padding-right: 2em;
-}
-
-
 @media screen and (max-width: 800px) {
 
 .board-members {
@@ -999,7 +986,42 @@ header {
   padding-bottom: .5em;
   padding-top: 1em;
 }
+}
 
+/* SPONSORS */
+.sponsors {
+  display: block;
+  text-align: center;
+}
+
+.sponsors img{
+  width: 30%;
+  margin 0;
+
+}
+
+.sponsors.left {
+  float:left;
+  width: 50%;
+}
+
+.sponsors.right {
+  float: right;
+  width: 50%;
+}
+
+
+/*.sponsors{
+  clear: both;
+  text-align: center;
+}
+
+.sponsors li {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 2em;
+}
 .sponsors{
   padding: 0;
   list-style-type: none;
@@ -1011,9 +1033,8 @@ header {
   list-style-type: none;
   text-align: left;
 
-}
+}*/
 
-}
 
 
 /* APPLY PAGE */
