@@ -700,7 +700,7 @@ header {
       font-weight: normal;
     }
 }
-@media screen and (min-width: 800px) and (max-width: 940px) {
+@media screen and (min-width: 800px) and (max-width: 1020px) {
     .story-titles ul li:last-of-type {
         display: none;
     }
