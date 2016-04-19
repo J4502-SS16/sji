@@ -865,7 +865,7 @@ clear: both;
 
 
 
-.latest-news.latest-news-page h3, img, time, p{
+.latest-news.latest-news-page h3, img, time.news, p{
   float: left;
   clear: both;
 }
