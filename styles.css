@@ -620,6 +620,10 @@ header {
     .latest-news{
       padding-top: 0;
     }
+    .latest-news time {
+        margin-bottom: 0.5rem;
+        display: inline-block;
+    }
     .news-story.main {
         width: 66%;
         float: left;
@@ -683,14 +687,13 @@ header {
       color: #7098C9;
       display: block;
     }
-    .story-titles p{
-      background-color: #fff;
-      font-size: .75em;
-      font-style: italic;
+    .story-titles p {
+      font-size: 0.8rem;
       color:#C99534;
       display: block;
       padding: 0;
       text-align: left;
+      text-transform: uppercase;
       width: 100%;
       text-align: left;
       font-weight: normal;
