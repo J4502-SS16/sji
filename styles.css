@@ -865,10 +865,19 @@ clear: both;
 
 
 
-.latest-news.latest-news-page h3, img, time.news, p{
+.latest-news.latest-news-page h3{
   float: left;
   clear: both;
 }
+
+.latest-news.latest-news-page img{
+  float: left;
+  clear: both;
+}
+
+.latest-news.latest-news-page p{
+  float: left;
+  clear: both;
 }
 
 /* SUMMER PROGRAMS & ABOUT PAGE*/
