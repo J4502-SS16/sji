@@ -1009,32 +1009,50 @@ header {
   float: right;
   width: 50%;
 }
-
-
-/*.sponsors{
-  clear: both;
-  text-align: center;
+.sponsors p{
+  font-size: 1em;
+  padding-bottom: 2em;
 }
 
-.sponsors li {
-  list-style-type: none;
-  text-decoration: none;
+.sponsors h3{
+  font-size: 2rem;
   text-align: center;
-  padding-right: 2em;
+  padding-bottom: 1em;
+  padding-top: 2em;
 }
-.sponsors{
-  padding: 0;
-  list-style-type: none;
+
+@media screen and (max-width: 800px) {
+
+.sponsors {
   text-align: left;
 }
 
-.sponsors li {
-  padding: 0;
-  list-style-type: none;
+.sponsors img{
+  width: 50%;
+  margin 0;
+}
+
+.sponsors.left {
+  float:none;
+  width: 50%;
+}
+
+.sponsors.right {
+  float:none;
+  width: 50%;
+}
+
+.sponsors p{
+  font-size: 1em;
+}
+
+.sponsors h3{
+  font-size: 2rem;
   text-align: left;
-
-}*/
-
+  padding-bottom: .5em;
+  padding-top: 1em;
+}
+}
 
 
 /* APPLY PAGE */
