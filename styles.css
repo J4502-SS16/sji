@@ -870,7 +870,7 @@ a.read-more:hover {
     .news-img-wrap a {
         width: 100%;
         display: block;
-      
+
     }
     .news-page img {
         width: auto;
@@ -909,13 +909,13 @@ a.read-more:hover {
         width: 48%;
         margin-right: 4%;
         margin-bottom: 0.5rem;
-        float: left;
+        float: right;
+        padding-top: 8rem;
+        padding-left: 3rem;
+        padding-bottom: 2rem;
     }
 
-    .about p{
-      float: right;
-      clear: both;
-    }
+
 }
 
 /* BOARD OF DIRECTORS*/
