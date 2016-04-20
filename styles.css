@@ -650,6 +650,7 @@ header {
       position: absolute;
       padding: 0;
     }
+
     .latest-news p {
       color: #000;
       width: 95%;
@@ -823,14 +824,20 @@ header {
   font-size: 1.1rem;
 }
 
+
+
+
+
 @media screen and (min-width: 800px) {
-    .latest-news-page {
-        width: 76%;
-        float: left;
-        border-bottom: none;
-        border-right: 1px solid #39577D;
-        padding-right: 2%;
-        margin-right: 2%;
+
+
+  .latest-news.latest-news-page {
+      width: 76%;
+      float: left;
+      border-bottom: none;
+      border-right: 1px solid #39577D;
+      padding-right: 2%;
+      margin-right: 2%;
     }
     .archive {
         width: calc(20% - 1px);
@@ -838,22 +845,26 @@ header {
     }
 }
 
+.news-page img{
+float: right;
+clear: both;
+width: 30%;
+position: relative;
+padding: 0em 5em 1em 1em;
 
-.latest-news.latest-news-page h3{
-  float: left;
-  clear: both;
 }
 
-.latest-news.latest-news-page img{
-  float: left;
-  clear: both;
-  width: 40%;
-  height: 200px;
+.news-page h3 {
+  padding-top: 2rem;
 }
 
-.latest-news.latest-news-page p{
-  float: right;
+.news-page p{
   width: 50%;
+}
+
+
+.news-page.padding{
+  padding-top: 8rem;
 }
 
 /* SUMMER PROGRAMS & ABOUT PAGE*/
