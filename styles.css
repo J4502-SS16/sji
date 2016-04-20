@@ -1295,7 +1295,7 @@ ul.toc li a {
 ul.toc li a:hover {
     font-weight: bold;
 }
-#alumni li {
+.alumni li {
   list-style-type: none;
 }
 
