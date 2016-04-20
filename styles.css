@@ -916,7 +916,6 @@ a.read-more:hover {
 .board-members img{
   width: 30%;
   margin 0;
-
 }
 
 .board-members.left {
@@ -933,27 +932,25 @@ a.read-more:hover {
   width: 100%;
   padding: 0;
   margin: 0;
-
 }
 
-.board-members li{
+.board-members li {
     text-decoration: none;
     margin: 0;
     padding-right: 0em;
     list-style:none;
     width: 33%;
-  text-align: center;
-  display: inline-block;
-  float: left;
-
+    text-align: center;
+    display: inline-block;
+    float: left;
 }
 
-.board-members p{
+.board-members p {
   font-size: 1em;
   padding-bottom: 2em;
 }
 
-.directors h3{
+.directors h3 {
   font-size: 2rem;
   text-align: center;
   padding-bottom: 1em;
@@ -961,55 +958,46 @@ a.read-more:hover {
 }
 
 @media screen and (max-width: 800px) {
+    .board-members {
+      text-align: left;
+    }
+    .board-members img {
+      width: 50%;
+      margin 0;
+    }
+    .board-members.left {
+      float:none;
+      width: 50%;
+    }
+    .board-members.right {
+      float:none;
+      width: 50%;
+    }
+    .board-members ul {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      float: none;
+    }
+    .board-members li {
+        text-decoration: none;
+        margin: 0;
+        padding-right: 0em;
+        list-style:none;
+        width: 33%;
+      text-align: left;
+      float: none;
 
-.board-members {
-  text-align: left;
-}
-
-.board-members img{
-  width: 50%;
-  margin 0;
-
-}
-
-.board-members.left {
-  float:none;
-  width: 50%;
-}
-
-.board-members.right {
-  float:none;
-  width: 50%;
-}
-
-.board-members ul {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  float: none;
-}
-
-.board-members li{
-    text-decoration: none;
-    margin: 0;
-    padding-right: 0em;
-    list-style:none;
-    width: 33%;
-  text-align: left;
-  float: none;
-
-}
-
-.board-members p{
-  font-size: 1em;
-}
-
-.directors h3{
-  font-size: 2rem;
-  text-align: left;
-  padding-bottom: .5em;
-  padding-top: 1em;
-}
+    }
+    .board-members p {
+      font-size: 1em;
+    }
+    .directors h3 {
+      font-size: 2rem;
+      text-align: left;
+      padding-bottom: .5em;
+      padding-top: 1em;
+    }
 }
 
 /* SPONSORS */
