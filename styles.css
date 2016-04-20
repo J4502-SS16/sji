@@ -38,6 +38,9 @@ a:hover {
 a:visited {
     color: #7098C9;
 }
+iframe {
+    border: 0;
+}
 .clear {
     clear: both;
 }
