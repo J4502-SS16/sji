@@ -1182,7 +1182,7 @@ footer {
 
 /* SIDE BARS */
 @media screen and (min-width: 800px) {
-    .connect-sidebar h1, .twitter-feed h1{
+    .connect-sidebar h2, .twitter-feed h2 {
       text-align: left;
       font-size: 1.5rem;
       color: #808080;
