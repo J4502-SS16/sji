@@ -826,6 +826,14 @@ a.read-more:hover {
     padding-left: 0.5rem;
     font-size: 1.1rem;
 }
+.news-blurb a{
+  color:#39577D;
+  text-decoration: none;
+}
+.news-blurb a:hover{
+  color: #7098C9;
+}
+
 
 @media screen and (min-width: 800px) {
   .latest-news-page {
