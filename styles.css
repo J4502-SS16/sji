@@ -586,47 +586,46 @@ header {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
 }
-.latest-news time {
+.latest-news time, .news-page time {
     text-transform: uppercase;
     font-size: 0.8rem;
     color: #C99534;
 }
-.latest-news h3 {
+.latest-news h3, .news-page h3 {
     font-size: 1.5rem;
     margin: 0.25rem 0 0.5rem;
     padding-top: .05rem;
 }
-.latest-news h3 a {
+.latest-news h3 a, .news-page h3 a {
     color: #000;
 }
-.latest-news img {
+.latest-news img, .news-page img {
     width: 100%;
     padding-top: .5rem;
 }
-.latest-news .read-more {
+.latest-news .read-more, .news-page .read-more {
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: bold;
     text-decoration: none;
     color: #39577d;
 }
-.read-more a:hover{
+.read-more a:hover {
   color: #7098c9;
 }
 .story-titles {
   display:none;
 }
 
-
 /*LATEST NEWS ON HOMEPAGE*/
 @media screen and (min-width: 800px) {
     p.boiler, .news-story2 {
       display:none;
     }
-    .latest-news{
+    .latest-news {
       padding-top: 0;
     }
-    .latest-news time {
+    .latest-news time, .news-page time {
         margin-bottom: 0.5rem;
         display: inline-block;
     }
@@ -813,59 +812,63 @@ header {
 }
 
 
-/* LATEST NEWS */
+/* LATEST NEWS PAGE */
 .archive {
-  text-align: center;
+    text-align: center;
 }
 
 .archive a {
-  padding-right: .5rem;
-  padding-left: .5rem;
-  font-size: 1.1rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1.1rem;
 }
 
-
-
-
-
 @media screen and (min-width: 800px) {
-
-
-  .latest-news.latest-news-page {
-      width: 76%;
-      float: left;
-      border-bottom: none;
-      border-right: 1px solid #39577D;
-      padding-right: 2%;
-      margin-right: 2%;
+  .latest-news-page {
+        width: 76%;
+        float: left;
+        border-bottom: none;
+        border-right: 1px solid #39577D;
+        padding-right: 2%;
+        margin-right: 2%;
     }
     .archive {
         width: calc(20% - 1px);
         float: left;
-
     }
-}
-
-.news-page img{
-float: right;
-clear: both;
-width: 30%;
-position: relative;
-padding: 0em 5em 1em 1em;
-
-}
-
-.news-page h3 {
-  padding-top: 2rem;
-}
-
-.news-page p{
-  width: 50%;
-}
-
-
-.news-page.padding{
-  padding-top: 8rem;
+    .news-page {
+        margin-top: 1rem;
+    }
+    .news-page:first-of-type {
+        margin-top: 0;
+    }
+    .news-img-wrap {
+        float: left;
+        width: 30%;
+        margin: 0 2% 0 0;
+        overflow: hidden;
+        position: relative;
+        background-color: #ccc;
+        text-align: center;
+        overflow: hidden;
+    }
+    .news-img-wrap a {
+        width: 100%;
+        display: block;
+    }
+    .news-page img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        max-height: 14rem;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .news-blurb-wrap {
+        float: left;
+        width: 68%;
+    }
 }
 
 /* SUMMER PROGRAMS & ABOUT PAGE*/
@@ -1217,16 +1220,12 @@ footer {
 }
 
 @media screen and (min-width: 800px) {
-
-
-#social img{
-  width: 3rem;
-  padding-right: .5rem;
-
+    #social img{
+      width: 3rem;
+      padding-right: .5rem;
+    }
 }
 
-
-}
 /*Homepage for Desktop*/
 
 /* SIDE BARS */
