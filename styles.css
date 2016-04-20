@@ -1286,7 +1286,7 @@ ul.toc li {
 .toc li:after {
     content: " / ";
 }
-.toc li:last-of-type:after {
+.toc li:first-of-type:after, .toc li:last-of-type:after {
     content: "";
 }
 ul.toc li a {
