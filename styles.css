@@ -1036,6 +1036,7 @@ a.read-more:hover {
 @media screen and (max-width: 800px) {
     .sponsors {
       text-align: left;
+
     }
     .sponsors img{
       width: 50%;
@@ -1051,6 +1052,7 @@ a.read-more:hover {
     }
     .sponsors p{
       font-size: 1rem;
+
     }
     .sponsors h3{
       font-size: 2rem;
@@ -1058,6 +1060,9 @@ a.read-more:hover {
       padding-bottom: 0.5rem;
       padding-top: 1rem;
     }
+
+  
+
 }
 
 /* APPLY PAGE */
