@@ -922,7 +922,7 @@ a.read-more:hover {
 }
 .board-members img {
   width: 30%;
-  margin 0;
+  margin: 0;
 }
 .board-members.left {
   float:left;
@@ -964,7 +964,7 @@ a.read-more:hover {
     }
     .board-members img {
       width: 50%;
-      margin 0;
+      margin: 0;
     }
     .board-members.left {
       float:none;
@@ -1008,7 +1008,7 @@ a.read-more:hover {
 }
 .sponsors img{
   width: 30%;
-  margin 0;
+  margin: 0;
 }
 .sponsors.left {
   float:left;
@@ -1035,7 +1035,7 @@ a.read-more:hover {
     }
     .sponsors img{
       width: 50%;
-      margin 0;
+      margin: 0;
     }
     .sponsors.left {
       float:none;
@@ -1090,14 +1090,14 @@ textarea{
   display: block;
   font-size: 1rem;
 }
-button{
+button {
   width: 10rem;
-  position: block;
+  display: block;
   background: #7098C9;
   font-weight: bold;
-  font-size:1rem;
+  font-size: 1rem;
   border-radius: 1rem;
-  border: .10rem solid #000;
+  border: 0.1rem solid #000;
   color: #fff;
 }
 #submit {
