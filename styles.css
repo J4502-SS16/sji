@@ -1164,6 +1164,11 @@ form {
 
 }
 
+input.short{
+  width: 5%;
+}
+
+
 .apply textarea{
   height: 5rem;
   width: 50%;
