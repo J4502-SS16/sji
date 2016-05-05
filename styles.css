@@ -151,11 +151,11 @@ header {
     width: 2rem;
     float: right;
     border: 0;
-    padding: 0.25rem !important;
+    padding: 0 0.5rem;
     background: #7098C9;
     color: #fff;
     border-radius: 0.25rem;
-
+    height: 2rem;
 }
 .menu {
     position:relative;
@@ -300,8 +300,11 @@ header {
 }
 
 @media screen and (min-width: 800px) and (max-width: 940px) {
+    header {
+        padding-top: 1rem;
+    }
     .search {
-        top: -8rem;
+        top: -9rem;
     }
     #container {
         padding-bottom: 10rem;
