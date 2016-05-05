@@ -48,7 +48,7 @@ iframe {
 #container {
     width: 90%;
     margin: 0 auto;
-    padding-bottom: 6.5rem;
+    padding-bottom: 8rem;
 }
 #col-2 {
     display: none;
@@ -302,6 +302,9 @@ header {
 @media screen and (min-width: 800px) and (max-width: 940px) {
     .search {
         top: -8rem;
+    }
+    #container {
+        padding-bottom: 10rem;
     }
 }
 
@@ -562,6 +565,10 @@ header {
   #burger > ul > li.has-sub > ul > li.active > a,
   #burger > ul ul > li.has-sub > ul > li.active > a {
     border-top: none;
+  }
+
+  #container {
+      padding-bottom: 12rem;
   }
 }
 
@@ -1173,16 +1180,14 @@ footer {
     width: calc(100% - 2rem);
 }
 #contact {
-    float: left;
-    margin-right: 1rem;
     text-align: left;
-    width:88%;
     font-size: 1rem;
 }
 #social {
     float: right;
     margin: 0;
-    padding-top: .6rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
 }
 #social img {
     width: 2rem;
@@ -1191,12 +1196,12 @@ footer {
 @media screen and (min-width: 800px) {
     #social img{
       width: 3rem;
-      padding-right: .5rem;
+      padding-right: 0.5rem;
     }
 }
 @media screen and (max-width: 800px){
     #contact {
-      width:70%;
+      width: 70%;
     }
 }
 
