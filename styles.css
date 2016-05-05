@@ -869,18 +869,18 @@ a.read-more:hover {
         position: relative;
         text-align: center;
         overflow: hidden;
+        background: #eee;
     }
     .news-img-wrap a {
         width: 100%;
         display: block;
-
     }
     .news-page img {
         width: auto;
         height: auto;
         max-width: 100%;
         display: block;
-        max-height: 14rem;
+        max-height: 20.5vw;
         margin: 0 auto;
         padding: 0;
     }
