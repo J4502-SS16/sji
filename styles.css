@@ -1351,13 +1351,17 @@ ul.toc.boiler a{
 
 .article-page h3 {
   font-size: 2.5rem;
-  margin: 0.25rem 0 0.5rem;
+  margin: 0rem;
   padding-top: .05rem;
 }
 
 .article-page {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.article-page-wrap {
+  padding-bottom: 0.5rem;
 }
 
 .article-page time {
@@ -1375,5 +1379,5 @@ ul.toc.boiler a{
   width: 30%;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
 }
