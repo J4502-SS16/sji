@@ -783,11 +783,10 @@ a.read-more:hover {
         margin-top: 0;
         color:#39577D;
         text-align: center;
-
     }
     .testimonial p {
         font-size: 1rem;
-        text-align: center;
+        text-align: left;
         width: auto;
     }
     .testimonial.one {
