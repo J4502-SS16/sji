@@ -743,12 +743,10 @@ a.read-more:hover {
 .testimonial {
     clear: both;
     padding-bottom: 1rem;
-
 }
 
 .testimonial h4 {
-  font-size:1rem;
-
+  font-size: 1rem;
 }
 
 .testimonial p {
@@ -758,7 +756,7 @@ a.read-more:hover {
 .testimonial img {
     width: 20%;
     float: left;
-    padding-right:1rem;
+    padding: 0 0.5rem 0.5rem 0;
 }
 
 @media screen and (min-width: 800px) {
