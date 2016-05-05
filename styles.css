@@ -920,22 +920,6 @@ a.read-more:hover {
 
 /* BOARD OF DIRECTORS*/
 
-.board-members {
-  display: block;
-  text-align: center;
-}
-.board-members img {
-  width: 30%;
-  margin: 0;
-}
-.board-members.left {
-  float:left;
-  width: 50%;
-}
-.board-members.right {
-  float: right;
-  width: 50%;
-}
 .board-members ul {
   width: 100%;
   padding: 0;
@@ -947,37 +931,19 @@ a.read-more:hover {
     padding-right: 0rem;
     list-style:none;
     width: 33%;
-    text-align: center;
-    display: inline-block;
-    float: left;
 }
 .board-members p {
-  font-size: 1rem;
-  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
 }
 .directors h3 {
   font-size: 2rem;
-  text-align: center;
-  padding-bottom: 1rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
-
+p.thanks {
+  font-size: 1.5rem;
+}
 @media screen and (max-width: 800px) {
-    .board-members {
-      text-align: left;
-    }
-    .board-members img {
-      width: 50%;
-      margin: 0;
-    }
-    .board-members.left {
-      float:none;
-      width: 50%;
-    }
-    .board-members.right {
-      float:none;
-      width: 50%;
-    }
     .board-members ul {
       width: 100%;
       padding: 0;
@@ -995,13 +961,15 @@ a.read-more:hover {
 
     }
     .board-members p {
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
     .directors h3 {
       font-size: 2rem;
       text-align: left;
-      padding-bottom: 0.5rem;
       padding-top: 1rem;
+    }
+    p.thanks{
+      font-size: 1.5rem;
     }
 }
 
@@ -1023,7 +991,7 @@ a.read-more:hover {
   width: 50%;
 }
 .sponsors p{
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-bottom: 2rem;
 }
 .sponsors h3{
@@ -1051,7 +1019,7 @@ a.read-more:hover {
       width: 50%;
     }
     .sponsors p{
-      font-size: 1rem;
+      font-size: 1.5rem;
 
     }
     .sponsors h3{
@@ -1337,5 +1305,5 @@ ul.toc.boiler a{
 /*ARTICLE PAGE*/
 
 .article-page {
-  
+
 }
