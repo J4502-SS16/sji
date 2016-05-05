@@ -132,7 +132,7 @@ header {
     width: 15rem;
     position: absolute;
     right: 5%;
-    top: 1rem;
+    top: 0.5rem;
     z-index: 9999;
 }
 .search form {
