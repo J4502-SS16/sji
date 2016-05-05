@@ -649,6 +649,9 @@ a.read-more:hover {
         width: 66%;
         float: left;
     }
+    .news-story.main h3 {
+        font-size: 2rem;
+    }
     .img-wrap {
         position: relative;
         width: 100%;
