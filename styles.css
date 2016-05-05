@@ -1171,6 +1171,9 @@ footer {
 #contact {
     float: left;
     margin-right: 1rem;
+    text-align: left;
+    width:88%;
+    font-size: 1rem;
 }
 #social {
     float: right;
@@ -1185,6 +1188,11 @@ footer {
     #social img{
       width: 3rem;
       padding-right: .5rem;
+    }
+}
+@media screen and (max-width: 800px){
+    #contact {
+      width:70%;
     }
 }
 
