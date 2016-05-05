@@ -1356,10 +1356,17 @@ ul.toc.boiler a{
 }
 
 .article-page {
-<<<<<<< HEAD
-
-=======
   padding-top: 1rem;
   padding-bottom: 1rem;
->>>>>>> origin/gh-pages
+}
+
+.article-page time {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #C99534;
+}
+
+.article-page img {
+  float: left;
+  width: 30%;
 }
