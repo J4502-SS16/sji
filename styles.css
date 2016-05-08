@@ -1016,16 +1016,16 @@ p.thanks {
 
     }
     .sponsors img{
-      width: 50%;
+      width: 70%;
       margin: 0;
     }
     .sponsors.left {
       float:none;
-      width: 50%;
+      width: 100%;
     }
     .sponsors.right {
       float:none;
-      width: 50%;
+      width: 100%;
     }
     .sponsors p{
       font-size: 1.5rem;
