@@ -740,7 +740,7 @@ a.read-more:hover {
 .testimonial {
     clear: both;
     padding-bottom: 1rem;
-    margin-bottom: 5rem;
+
 }
 
 .testimonial h4 {
@@ -760,6 +760,7 @@ a.read-more:hover {
 @media screen and (min-width: 800px) {
     .testimonial {
       width: auto;
+      padding-bottom: 2rem;
     }
     .testimonial img{
       width: 30%;
@@ -805,6 +806,7 @@ a.read-more:hover {
     .testimonial.three {
         width: 50%;
         margin: 0 auto;
+
     }
 }
 
