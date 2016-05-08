@@ -669,7 +669,7 @@ a.read-more:hover {
       width: 95%;
       display: block;
       margin: 1rem 0 0;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
     .news-story.main h3 a {
       color: #000;
@@ -744,13 +744,13 @@ a.read-more:hover {
 }
 
 .testimonial h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #39577D;
 }
 
 .testimonial p {
   padding-right: 1.75rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .testimonial img {
@@ -779,13 +779,13 @@ a.read-more:hover {
       margin: 0;
     }
       .testimonial h4 {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-top: 0;
         color:#39577D;
         text-align: center;
     }
     .testimonial p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-align: left;
         width: auto;
     }
@@ -960,15 +960,15 @@ a.read-more:hover {
     width: 33%;
 }
 .board-members p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding-bottom: .5rem;
 }
 .directors h3 {
-  font-size: 2rem;
-  padding-top: 1rem;
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
 }
 p.thanks {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 @media screen and (max-width: 800px) {
     .board-members ul {
@@ -988,15 +988,15 @@ p.thanks {
 
     }
     .board-members p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     .directors h3 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-align: left;
       padding-top: 1rem;
     }
     p.thanks{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 }
 
@@ -1019,11 +1019,11 @@ p.thanks {
   width: 50%;
 }
 .sponsors p{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding-bottom: 2rem;
 }
 .sponsors h3{
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   padding-bottom: 1rem;
   padding-top: 2rem;
@@ -1039,19 +1039,19 @@ p.thanks {
       margin: 0;
     }
     .sponsors.left {
-      float:none;
+      float:center;
       width: 50%;
     }
     .sponsors.right {
-      float:none;
+      float:center;
       width: 50%;
     }
     .sponsors p{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
 
     }
     .sponsors h3{
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-align: left;
       padding-bottom: 0.5rem;
       padding-top: 1rem;
@@ -1422,4 +1422,7 @@ ul.toc.boiler a{
 
 .Internships{
   margin-bottom: 5rem;
+}
+.Internships h3{
+  font-size: 1.5rem;
 }
