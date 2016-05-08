@@ -1374,3 +1374,12 @@ ul.toc.boiler a{
   padding-bottom: 0.5rem;
   padding-top: 1.5rem;
 }
+@media screen and (max-width: 600px){
+  .article-page img {
+    float: left;
+    width: 100%;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    }
+}
