@@ -1319,9 +1319,7 @@ footer {
 
 /* ALUMNI */
 
-.alumni{
-  margin-bottom: 5rem;
-}
+
 ul.toc {
     width: calc(100% - 1.5rem);
     margin: 1rem 0 0;
@@ -1345,6 +1343,14 @@ ul.toc li a:hover {
 }
 .alumni li {
   list-style-type: none;
+}
+
+.alumni {
+  margin-bottom: 5rem;
+}
+
+.homepage-button.alumni{
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 800px) {
