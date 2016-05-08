@@ -745,10 +745,12 @@ a.read-more:hover {
 
 .testimonial h4 {
   font-size: 1rem;
+  color: #39577D;
 }
 
 .testimonial p {
   padding-right: 1.75rem;
+  font-size: 1rem;
 }
 
 .testimonial img {
