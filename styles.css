@@ -49,6 +49,7 @@ iframe {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 8rem;
+
 }
 #col-2 {
     display: none;
@@ -594,7 +595,7 @@ header {
 }
 .latest-news {
     border-bottom: 3px solid #808080;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     padding-bottom: 1rem;
 }
 .latest-news time, .news-page time {
@@ -739,6 +740,7 @@ a.read-more:hover {
 .testimonial {
     clear: both;
     padding-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 .testimonial h4 {
@@ -822,10 +824,15 @@ a.read-more:hover {
   height: 100%;
 }
 
+.About {
+  margin-bottom: 5rem;
+}
+
 
 /* LATEST NEWS PAGE */
 .archive {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .archive a {
@@ -854,7 +861,10 @@ a.read-more:hover {
     .archive {
         width: calc(20% - 1px);
         float: left;
+
     }
+
+
     .news-page {
         margin-top: 2rem;
     }
@@ -888,6 +898,16 @@ a.read-more:hover {
         float: left;
         width: 68%;
     }
+
+    .archive h3{
+      font-size: 2rem;
+    }
+
+    .archive a{
+      display: block;
+      padding-bottom: 1rem;
+      font-size: 1.5rem;
+    }
 }
 
 /* SUMMER PROGRAMS & ABOUT PAGE*/
@@ -896,7 +916,9 @@ a.read-more:hover {
   padding-top: 1rem;
 }
 .about {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem
+  margin-bottom: 5rem;
+
 }
 .about iframe {
   padding-top: 0.5rem;
@@ -980,6 +1002,7 @@ p.thanks {
 .sponsors {
   display: block;
   text-align: center;
+  margin-bottom: 5rem;
 }
 .sponsors img{
   width: 30%;
@@ -1059,7 +1082,7 @@ form {
   padding-bottom: 2rem;
   border: .25rem solid #7098C9;
   border-radius:.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 
 
 }
@@ -1295,6 +1318,10 @@ footer {
 }
 
 /* ALUMNI */
+
+.alumni{
+  margin-bottom: 5rem;
+}
 ul.toc {
     width: calc(100% - 1.5rem);
     margin: 1rem 0 0;
@@ -1351,6 +1378,7 @@ ul.toc.boiler a{
 .article-page {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 .article-page-wrap {
@@ -1368,9 +1396,22 @@ ul.toc.boiler a{
 }
 
 .article-page img {
-  float: left;
-  width: 30%;
+  width: 100%;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
   padding-top: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+
+.article-page img {
+  float: left;
+  width: 30%;
+}
+
+
+}
+
+.Internships{
+  margin-bottom: 5rem;
 }
