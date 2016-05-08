@@ -1020,11 +1020,11 @@ p.thanks {
   margin: 0;
 }
 .sponsors.left {
-  float:left;
+  float:center;
   width: 50%;
 }
 .sponsors.right {
-  float: right;
+  float: center;
   width: 50%;
 }
 .sponsors p{
