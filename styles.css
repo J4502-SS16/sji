@@ -841,6 +841,7 @@ a.read-more:hover {
 /* LATEST NEWS PAGE */
 .archive {
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .archive a {
@@ -865,10 +866,28 @@ a.read-more:hover {
         border-right: 1px solid #39577D;
         padding-right: 2%;
         margin-right: 2%;
+
     }
     .archive {
         width: calc(20% - 1px);
         float: left;
+
+
+    }
+
+    .archive a {
+      display: block;
+      padding-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #39577d;
+    }
+
+    .archive a:hover{
+      color: #7098c9;
+    }
+
+    .archive h3{
+      font-size: 2rem;
     }
     .news-page {
         margin-top: 2rem;
