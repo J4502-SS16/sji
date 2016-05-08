@@ -49,7 +49,6 @@ iframe {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 8rem;
-
 }
 #col-2 {
     display: none;
@@ -595,7 +594,7 @@ header {
 }
 .latest-news {
     border-bottom: 3px solid #808080;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     padding-bottom: 1rem;
 }
 .latest-news time, .news-page time {
@@ -740,17 +739,27 @@ a.read-more:hover {
 .testimonial {
     clear: both;
     padding-bottom: 1rem;
-    margin-bottom: 5rem;
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/gh-pages
 }
 
 .testimonial h4 {
+<<<<<<< HEAD
   font-size: 1.2rem;
   color: #39577D;
+=======
+  font-size: 1rem;
+>>>>>>> origin/gh-pages
 }
 
 .testimonial p {
   padding-right: 1.75rem;
+<<<<<<< HEAD
   font-size: 1.2rem;
+=======
+>>>>>>> origin/gh-pages
 }
 
 .testimonial img {
@@ -762,6 +771,7 @@ a.read-more:hover {
 @media screen and (min-width: 800px) {
     .testimonial {
       width: auto;
+      padding-bottom: 2rem;
     }
     .testimonial img{
       width: 30%;
@@ -807,6 +817,7 @@ a.read-more:hover {
     .testimonial.three {
         width: 50%;
         margin: 0 auto;
+
     }
 }
 
@@ -826,15 +837,10 @@ a.read-more:hover {
   height: 100%;
 }
 
-.About {
-  margin-bottom: 5rem;
-}
-
 
 /* LATEST NEWS PAGE */
 .archive {
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 .archive a {
@@ -863,10 +869,7 @@ a.read-more:hover {
     .archive {
         width: calc(20% - 1px);
         float: left;
-
     }
-
-
     .news-page {
         margin-top: 2rem;
     }
@@ -900,16 +903,6 @@ a.read-more:hover {
         float: left;
         width: 68%;
     }
-
-    .archive h3{
-      font-size: 2rem;
-    }
-
-    .archive a{
-      display: block;
-      padding-bottom: 1rem;
-      font-size: 1.5rem;
-    }
 }
 
 /* SUMMER PROGRAMS & ABOUT PAGE*/
@@ -918,9 +911,7 @@ a.read-more:hover {
   padding-top: 1rem;
 }
 .about {
-  padding-bottom: 2rem
-  margin-bottom: 5rem;
-
+  padding-bottom: 1rem;
 }
 .about iframe {
   padding-top: 0.5rem;
@@ -1004,7 +995,6 @@ p.thanks {
 .sponsors {
   display: block;
   text-align: center;
-  margin-bottom: 5rem;
 }
 .sponsors img{
   width: 30%;
@@ -1035,16 +1025,25 @@ p.thanks {
 
     }
     .sponsors img{
-      width: 50%;
+      width: 70%;
       margin: 0;
     }
     .sponsors.left {
+<<<<<<< HEAD
       float:center;
       width: 50%;
     }
     .sponsors.right {
       float:center;
       width: 50%;
+=======
+      float:none;
+      width: 100%;
+    }
+    .sponsors.right {
+      float:none;
+      width: 100%;
+>>>>>>> origin/gh-pages
     }
     .sponsors p{
       font-size: 1.2rem;
@@ -1084,7 +1083,7 @@ form {
   padding-bottom: 2rem;
   border: .25rem solid #7098C9;
   border-radius:.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 
 
 }
@@ -1320,8 +1319,6 @@ footer {
 }
 
 /* ALUMNI */
-
-
 ul.toc {
     width: calc(100% - 1.5rem);
     margin: 1rem 0 0;
@@ -1345,14 +1342,6 @@ ul.toc li a:hover {
 }
 .alumni li {
   list-style-type: none;
-}
-
-.alumni {
-  margin-bottom: 5rem;
-}
-
-.homepage-button.alumni{
-  margin-bottom: 0;
 }
 
 @media screen and (min-width: 800px) {
@@ -1386,7 +1375,6 @@ ul.toc.boiler a{
 .article-page {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 5rem;
 }
 
 .article-page-wrap {
@@ -1404,24 +1392,20 @@ ul.toc.boiler a{
 }
 
 .article-page img {
-  width: 100%;
+  float: left;
+  width: 30%;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
   padding-top: 1.5rem;
 }
-
-@media screen and (min-width: 800px) {
-
-.article-page img {
-  float: left;
-  width: 30%;
-}
-
-
-}
-
-.Internships{
-  margin-bottom: 5rem;
+@media screen and (max-width: 600px){
+  .article-page img {
+    float: left;
+    width: 100%;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    }
 }
 .Internships h3{
   font-size: 1.5rem;
