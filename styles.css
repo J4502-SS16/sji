@@ -1020,11 +1020,11 @@ p.thanks {
   margin: 0;
 }
 .sponsors.left {
-  float:center;
+  float:left;
   width: 50%;
 }
 .sponsors.right {
-  float: center;
+  float: right;
   width: 50%;
 }
 .sponsors p{
@@ -1040,7 +1040,7 @@ p.thanks {
 
 @media screen and (max-width: 800px) {
     .sponsors {
-      text-align: left;
+      text-align: center;
 
     }
     .sponsors img{
@@ -1048,21 +1048,17 @@ p.thanks {
       margin: 0;
     }
     .sponsors.left {
-<<<<<<< HEAD
       float:center;
-      width: 50%;
+      width: 100%;
     }
     .sponsors.right {
       float:center;
-      width: 50%;
-=======
       float:none;
       width: 100%;
     }
     .sponsors.right {
       float:none;
       width: 100%;
->>>>>>> origin/gh-pages
     }
     .sponsors p{
       font-size: 1.2rem;
