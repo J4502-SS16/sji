@@ -739,27 +739,17 @@ a.read-more:hover {
 .testimonial {
     clear: both;
     padding-bottom: 1rem;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/gh-pages
 }
 
 .testimonial h4 {
-<<<<<<< HEAD
   font-size: 1.2rem;
   color: #39577D;
-=======
   font-size: 1rem;
->>>>>>> origin/gh-pages
 }
 
 .testimonial p {
   padding-right: 1.75rem;
-<<<<<<< HEAD
   font-size: 1.2rem;
-=======
->>>>>>> origin/gh-pages
 }
 
 .testimonial img {
