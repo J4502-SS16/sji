@@ -21,6 +21,7 @@
 
     <body>
 
+
         <header>
             <a href="index.html"><img id="logo" src="images/logo.png" alt="logo" /></a>
             <div id="header-text">
@@ -71,18 +72,26 @@
         <a class="application" href="sjiapp20161.pdf">Download Application </a>
         <br>
         <br>
-          <form>
+          <form name="contact">
             <p class="form-intro">Have questions before applying for the Bootcamp? Ask us!</p>
-            <p>First name:  <input type="text" name="firstname"></p>
-            <p>Last name:  <input type="text" name="lastname"></p>
-            <p>E-mail address:  <input type="text" name="email"></p>
+            <p>First name:  <input type="text" name="firstname" required autofocus></p>
+            <p>Last name:  <input  type="text" name="lastname" required></p>
+            <p>E-mail address:  <input type="text" name="email" required></p>
             <p>College or university:  <input type="text" name="school"></p>
-            <p>Message: <textarea class="long" name="message" rows="5"></textarea></p>
+            <p>Message: <textarea class="long" name="message" rows="5" required></textarea></p>
 
 
-            <div id="submit"><button type="button">Submit</button></div>
-
+            <div id="submit"><button type="button" value="Submit">Submit</button></div>
+            <p id="demo"></p>
           </form>
+
+          <script>
+          $(document).ready(function(){
+            $("button").click(function(){
+              alert("Thank you for your message!");
+            });
+          });
+          </script>
 
 
       </section>
