@@ -47,7 +47,7 @@ iframe {
 
 #container {
     width: 90%;
-    margin: 0 auto;
+    margin: 1.5rem auto 0;
     padding-bottom: 8rem;
 }
 #col-2 {
@@ -342,7 +342,8 @@ header {
         float: right;
         width: 32%;
         padding-left: 3%;
-
+        border-left: 3px solid #808080;
+        margin-left: -3px;
     }
 }
 
@@ -459,7 +460,6 @@ header {
       -ms-transition: all .3s ease;
       transition: all .3s ease;
   }
-
   .button:after {
     position: absolute;
     top: 22px;
@@ -475,7 +475,6 @@ header {
       border-top: 2px solid #fff;
       border-bottom: 2px solid #fff;
   }
-
   .button:before {
     -webkit-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -492,7 +491,6 @@ header {
   .button:hover:before {
       background: #fff;
   }
-
   .button.menu-opened:after {
     -webkit-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -511,7 +509,6 @@ header {
   .button.menu-opened:hover:after {
       background: #fff;
   }
-
   .button.menu-opened:before {
     top: 23px;
     background: #7098C9;
@@ -537,19 +534,16 @@ header {
     cursor: pointer;
     background: #333;
   }
-
   #burger .submenu-button:hover {
     background: #555;
     -webkit-transition:background .3s ease;
     -ms-transition:background .3s ease;
     transition:background .3s ease;
   }
-
   #burger ul ul .submenu-button {
     height: 31px;
     width: 31px;
   }
-
   #burger .submenu-button:after {
     color: #fff;
     content: "\25BC";
@@ -557,12 +551,10 @@ header {
     left: 16px;
     top: 15px;
   }
-
   #burger ul ul .submenu-button:before {
     top: 12px;
     right: 16px;
   }
-
   #burger > ul > li.has-sub > ul > li.active > a,
   #burger > ul ul > li.has-sub > ul > li.active > a {
     border-top: none;
@@ -614,7 +606,7 @@ header {
 }
 .latest-news img, .news-page img {
     width: 100%;
-    padding-top: .5rem;
+    padding-top: 0.5rem;
 }
 a.read-more {
     text-transform: uppercase;
@@ -739,13 +731,11 @@ a.read-more:hover {
 .testimonial {
     clear: both;
     padding-bottom: 1rem;
-
 }
 
 .testimonial h4 {
   font-size: 1.2rem;
   color: #39577D;
-
 }
 
 .testimonial p {
@@ -829,13 +819,11 @@ a.read-more:hover {
   height: 100%;
 }
 
-
 /* LATEST NEWS PAGE */
 .archive {
     text-align: center;
     margin-bottom: 5rem;
 }
-
 .archive a {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
@@ -849,7 +837,6 @@ a.read-more:hover {
   color: #7098C9;
 }
 
-
 @media screen and (min-width: 800px) {
   .latest-news-page {
         width: 76%;
@@ -858,26 +845,20 @@ a.read-more:hover {
         border-right: 1px solid #39577D;
         padding-right: 2%;
         margin-right: 2%;
-
     }
     .archive {
         width: calc(20% - 1px);
         float: left;
-
-
     }
-
     .archive a {
       display: block;
       padding-bottom: 1rem;
       font-size: 1.5rem;
       color: #39577d;
     }
-
     .archive a:hover{
       color: #7098c9;
     }
-
     .archive h3{
       font-size: 2rem;
     }
@@ -943,8 +924,6 @@ a.read-more:hover {
         padding-left: 3rem;
         padding-bottom: 2rem;
     }
-
-
 }
 
 /* BOARD OF DIRECTORS*/
@@ -963,7 +942,7 @@ a.read-more:hover {
 }
 .board-members p {
   font-size: 1.2rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 .directors h3 {
   font-size: 1.5rem;
@@ -972,12 +951,13 @@ a.read-more:hover {
 p.thanks {
   font-size: 1.2rem;
 }
+
 @media screen and (max-width: 800px) {
     .board-members ul {
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      float: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        float: none;
     }
     .board-members li {
         text-decoration: none;
@@ -985,20 +965,20 @@ p.thanks {
         padding-right: 0rem;
         list-style:none;
         width: 33%;
-      text-align: left;
-      float: none;
+        text-align: left;
+        float: none;
 
     }
     .board-members p {
-      font-size: 1.2rem;
+        font-size: 1.2rem;
     }
     .directors h3 {
-      font-size: 1.5rem;
-      text-align: left;
-      padding-top: 1rem;
+        font-size: 1.5rem;
+        text-align: left;
+        padding-top: 1rem;
     }
     p.thanks{
-      font-size: 1.2rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -1007,7 +987,7 @@ p.thanks {
   display: block;
   text-align: center;
 }
-.sponsors img{
+.sponsors img {
   width: 30%;
   margin: 0;
 }
@@ -1019,11 +999,11 @@ p.thanks {
   float: right;
   width: 50%;
 }
-.sponsors p{
+.sponsors p {
   font-size: 1.2rem;
   padding-bottom: 2rem;
 }
-.sponsors h3{
+.sponsors h3 {
   font-size: 1.5rem;
   text-align: center;
   padding-bottom: 1rem;
@@ -1033,9 +1013,8 @@ p.thanks {
 @media screen and (max-width: 800px) {
     .sponsors {
       text-align: center;
-
     }
-    .sponsors img{
+    .sponsors img {
       width: 70%;
       margin: 0;
     }
@@ -1052,107 +1031,80 @@ p.thanks {
       float:none;
       width: 100%;
     }
-    .sponsors p{
+    .sponsors p {
       font-size: 1.2rem;
-
     }
-    .sponsors h3{
+    .sponsors h3 {
       font-size: 1.5rem;
       text-align: left;
       padding-bottom: 0.5rem;
       padding-top: 1rem;
     }
-
-
-
 }
 
 /* APPLY PAGE */
 
 .apply .section-hed {
-  font-size: 1.5rem;
-  text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
 }
-
-.apply a.application{
-font-size: 1.5rem;
-padding-bottom: 3rem;
-
+.apply a.application {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
 }
-
-.apply a.application:hover{
+.apply a.application:hover {
   color: #C99534;
 }
-
-
-form {
-  padding-top: .25rem;
-  padding-bottom: 2rem;
-  border: .25rem solid #7098C9;
-  border-radius:.5rem;
-  margin-bottom: 1rem;
-
-
+.apply form {
+    padding-top: 0.25rem;
+    padding-bottom: 2rem;
+    border: 2px solid #7098C9;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
 }
-
-form p {
-  font-weight: bold;
-  font-size: 1.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: .5rem;
-
+.apply form p {
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
 }
-
-form p.form-intro{
-  padding-bottom: .25rem;
-  font-size: 1.5rem;
-  font-weight:normal;
-
+.apply form p.form-intro{
+    padding-bottom: 0.25rem;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
-
-
-input {
-  width: 45%;
-  height:1.5rem;
-  display: inline;
-  border: .10rem solid #000;
-  font-size: 1rem;
-
+.apply input {
+    width: 45%;
+    height:1.5rem;
+    display: inline;
+    border: 1px solid #000;
+    font-size: 1rem;
 }
-
-
-textarea{
-  height: 5rem;
-  width: 100%;
-  display: block;
-  font-size: 1rem;
+.apply textarea {
+    height: 5rem;
+    width: 100%;
+    display: block;
+    font-size: 1rem;
 }
-button {
-  display: block;
-  background: #7098C9;
-  font-weight: bold;
-  font-size: 1.5rem;
-  border-radius: 1rem;
-  border: 0.1rem solid #000;
-  color: #fff;
-
-
+.apply button {
+    display: block;
+    background: #7098C9;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    color: #fff;
 }
-
-.apply button{
-  width: 50%;
-  height: 2.5rem;
-  margin: 0 auto;
-
+.apply button {
+    width: 50%;
+    height: 2.5rem;
+    margin: 0 auto;
 }
 #submit {
-  padding-top: 1rem;
-  width: 100%;
-  margin: 0 auto;
-
-
-
+    padding-top: 1rem;
+    width: 100%;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 800px) {
@@ -1160,11 +1112,11 @@ button {
       font-size: 2.5rem;
       text-align: left;
     }
-    form p {
+    .apply form p {
       font-weight: bold;
       font-size: 1.5rem;
     }
-    form {
+    .apply form {
       padding-left: 3rem;
       padding-right: 3rem;
       width: 50%;
@@ -1174,27 +1126,19 @@ button {
     .apply input {
       font-size: 1.5rem;
       height: 2rem;
-
     }
-
     .apply textarea{
       height: 5rem;
-
       font-size: 1.5rem;
     }
     .apply button{
       width: 50%;
       height: 2.5rem;
       margin: 0 auto;
-
-
-
     }
      .apply button:hover {
        color: #000;
      }
-
-
 }
 
 /* FOOTER */
@@ -1238,20 +1182,19 @@ footer {
 /* SIDE BARS */
 @media screen and (min-width: 800px) {
     .connect-sidebar h2, .twitter-feed h2 {
-      text-align: left;
-      font-size: 1.5rem;
-      color: #808080;
-      border-bottom: 3px solid #808080;
-      width: 100%;
-      height:1rem;
-      padding-bottom: 1rem;
+        text-align: left;
+        font-size: 1.5rem;
+        color: #808080;
+        border-bottom: 3px solid #808080;
+        width: 100%;
+        height:1rem;
+        padding-bottom: 1rem;
     }
-
-    .connect-sidebar a img{
-      display: inline;
-      width: 15%;
-      padding-bottom: 1rem;
-      padding-right: 1rem;
+    .connect-sidebar a img {
+        display: inline;
+        width: 15%;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
     }
 }
 
@@ -1280,34 +1223,32 @@ footer {
     .homepage-buttons a:hover {
         color: #39577D;
     }
-
     .homepage-buttons a {
         text-decoration: none;
         color: #fff;
         font-weight: bold;
     }
-
-     .homepage-button{
-         border: 1px solid #39577D;
-         width: 30%;
-         height: 80px;
-         margin-right: calc(4.5% - 4px);
-         display: inline-block;
-         position: relative;
-     }
-     .homepage-button:before {
-         content: ' ';
-         display: block;
-         position: absolute;
-         left: 0;
-         top: 0;
-         width: 100%;
-         height: 100%;
-         z-index: 1;
-         background-image: url(images/applybutton.jpg);
-         background-repeat: no-repeat;
-         background-size: cover;
-         background-position: center;
+    .homepage-button{
+        border: 1px solid #39577D;
+        width: 30%;
+        height: 80px;
+        margin-right: calc(4.5% - 4px);
+        display: inline-block;
+        position: relative;
+    }
+    .homepage-button:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-image: url(images/applybutton.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
      }
      .homepage-button:hover:before {
          opacity: 0.5;
@@ -1315,11 +1256,9 @@ footer {
      .homepage-button:last-of-type {
          margin-right: 0;
      }
-
      .homepage-button.alumni:before {
          background-image: url(images/alumnibutton.jpg);
      }
-
     .homepage-button.contact:before {
         background-image: url(images/contactbutton.jpg);
     }
@@ -1380,11 +1319,6 @@ ul.toc.boiler a{
   margin: 0;
 }
 
-.article-page {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .article-page-wrap {
   padding-bottom: 0.5rem;
 }
@@ -1395,26 +1329,22 @@ ul.toc.boiler a{
   color: #C99534;
 }
 
-.article-page p {
-  padding-left: .05rem;
-}
-
 .article-page img {
   float: left;
-  width: 30%;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-  padding-top: 1.5rem;
+  width: 40%;
+  padding: 1.5rem 1.5rem 1rem 0;
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 800px) {
   .article-page img {
-    float: left;
-    width: 100%;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
-    padding-top: 1.5rem;
+        float: left;
+        width: 100%;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        padding-top: 1.5rem;
     }
 }
-.Internships h3{
+
+.internships h3{
   font-size: 1.5rem;
 }
