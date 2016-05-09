@@ -745,7 +745,7 @@ a.read-more:hover {
 .testimonial h4 {
   font-size: 1.2rem;
   color: #39577D;
-  
+
 }
 
 .testimonial p {
@@ -1346,6 +1346,7 @@ ul.toc li a {
 }
 ul.toc li a:hover {
     font-weight: bold;
+    color: #7098C9;
 }
 .alumni li {
   list-style-type: none;
